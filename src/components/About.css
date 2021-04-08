@@ -1,0 +1,52 @@
+.profile {
+    height: 85%;
+    width: 85%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    border-radius: 5%;
+    background-color: aliceblue;
+}
+
+.bio {
+    padding-bottom: 20px;
+}
+
+.social {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.socialLinks {
+    text-align: center;
+}
+
+.link {
+    font-size: 30px;
+}
+
+.skillTitle {
+    border-top: solid 5px white;
+}
+
+.skills {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.icon {
+    font-size: 26px;
+}
+
+.text {
+    font-size: 13px;
+}

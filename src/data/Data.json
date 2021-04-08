@@ -1,0 +1,114 @@
+[
+    {
+        "id": 1,
+        "webHref": "https://stormy-springs-60842.herokuapp.com/",
+        "src": "https://i.ibb.co/kJyn2M0/Travel-Planner.png",
+        "text": "Let's Go Travel Planner",
+        "repoText": "Click the image to view the live page or click",
+        "repoLink": "https://github.com/Mcilhaggis/lets-go-travel-planner"
+    },
+    {
+        "id": 2,
+        "webHref": "https://uoft-group7-project-1.github.io/Group7_Project-1/",
+        "src": "https://i.ibb.co/Gsf9HSg/Movie.png",
+        "text": "Movie Searcher",
+        "repoText": "Click the image to view the live page or click",
+        "repoLink": "https://github.com/UofT-Group7-Project-1/Group7_Project-1"
+    },
+    {
+        "id": 3,
+        "webHref": "https://hustinkava.github.io/Code-Quiz/",
+        "src": "https://i.ibb.co/LgY3YrC/CodeQuiz.png",
+        "text": "Code Quiz",
+        "repoText": "Click the image to view the live page or click",
+        "repoLink": "https://github.com/HustinKava/Code-Quiz"
+    },   
+    {
+        "id": 4,
+        "webHref": "https://hustinkava.github.io/Password-Generator/",
+        "src": "https://i.ibb.co/3N3Ts62/Password.png",
+        "text": "Password Generator",
+        "repoText": "Click the image to view the live page or click",
+        "repoLink": "https://github.com/HustinKava/Password-Generator"
+    },
+    {
+        "id": 5,
+        "webHref": "https://hustinkava.github.io/Weather-Dashboard/",
+        "src": "https://i.ibb.co/dgcmXQj/Weather.png",
+        "text": "Weather Dashboard",
+        "repoText": "Click the image to view the live page or click",
+        "repoLink": "https://github.com/HustinKava/Weather-Dashboard"
+    },
+    {
+        "id": 6,
+        "webHref": "https://hustinkava.github.io/Work-Day-Schedule/",
+        "src": "https://i.ibb.co/802h4qW/WorkDay.png",
+        "text": "Work Day Scheduler",
+        "repoText": "Click the image to view the live page or click",
+        "repoLink": "https://github.com/HustinKava/Work-Day-Schedule"
+    },
+    {
+        "id": 7,
+        "webHref": "https://youtu.be/VeKhEJunMI0",
+        "src": "https://i.ibb.co/w6dR7Sb/ReadMe.png",
+        "text": "Readme Generator",
+        "repoText": "Click the image to view the video or click",
+        "repoLink": "https://github.com/HustinKava/Professional-Readme-Generator"
+    },
+    {
+        "id": 8,
+        "webHref": "https://youtu.be/mR7uePdATIk",
+        "src": "https://i.ibb.co/fNLL4yb/Emp-Summary.png",
+        "text": "Template Engine - Employee Summary",
+        "repoText": "Click the image to view the video or click",
+        "repoLink": "https://github.com/HustinKava/Template-Engine-Employee-Summary"
+    },
+    {
+        "id": 9,
+        "webHref": "https://note-taker-uoft.herokuapp.com/notes",
+        "src": "https://i.ibb.co/Z8xnv2z/Note-Taker.png",
+        "text": "Note Taker",
+        "repoText": "Click the image to view the live page or click",
+        "repoLink": "https://github.com/HustinKava/Note-Taker"
+    },
+    {
+        "id": 10,
+        "webHref": "https://www.youtube.com/watch?v=g9tlIpv78nc&feature=youtu.be",
+        "src": "https://i.ibb.co/s23V0pg/Emp-Tracker.png",
+        "text": "Employee Tracker",
+        "repoText": "Click the image to view the video or click",
+        "repoLink": "https://github.com/HustinKava/Employee-Tracker"
+    },
+    {
+        "id": 11,
+        "webHref": "https://blooming-citadel-30147.herokuapp.com/",
+        "src": "https://i.ibb.co/VSqxJ9r/Burger.png",
+        "text": "Eat Da Burger",
+        "repoText": "Click the image to view the live page or click",
+        "repoLink": "https://github.com/HustinKava/Eat-Da-Burger"
+    },
+    {
+        "id": 12,
+        "webHref": "https://infinite-forest-17979.herokuapp.com/",
+        "src": "https://i.ibb.co/k5JSk9x/Workout.png",
+        "text": "Workout Tracker",
+        "repoText": "Click the image to view the live page or click",
+        "repoLink": "https://github.com/HustinKava/Workout-Tracker"
+    },
+    {
+        "id": 13,
+        "webHref": "https://protected-garden-52217.herokuapp.com/",
+        "src": "https://i.ibb.co/2Yy9gKv/Budget.png",
+        "text": "Budget Tracker",
+        "repoText": "Click the image to view the live page or click",
+        "repoLink": "https://github.com/HustinKava/Budget-Tracker"
+    },
+    {
+        "id": 14,
+        "webHref": "https://rocky-temple-86306.herokuapp.com/",
+        "src": "https://i.ibb.co/4MPSdQW/Directory.png",
+        "text": "Employee Directory",
+        "repoText": "Click the image to view the live page or click",
+        "repoLink": "https://github.com/HustinKava/Employee-Directory"
+    } 
+]
