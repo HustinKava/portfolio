@@ -10,7 +10,7 @@ import Resume from '../resume/Resume.pdf';
 function About () {
 
     return (
-        <Container className='container' maxWidth="sm">
+        <Container className='container' maxWidth="md">
             <h1 style={{textAlign:'center'}}>About Me</h1>
 
             <Grid className='bio' container spacing={0}>
