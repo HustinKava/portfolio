@@ -1,114 +1,152 @@
-[
+[   
     {
         "id": 1,
-        "webHref": "https://stormy-springs-60842.herokuapp.com/",
-        "src": "https://i.ibb.co/mXsrzYx/Travel-Planner.png",
-        "text": "Let's Go Travel Planner",
-        "repoText": "Click the image to view the live page or click",
-        "repoLink": "https://github.com/Mcilhaggis/lets-go-travel-planner"
+        "webHref": "https://guarded-dusk-24354.herokuapp.com/",
+        "src": "https://i.ibb.co/6tX1THB/Mind-Share.png",
+        "text": "MindShare",
+        "repoLink": "https://github.com/P3TeamTwo/p3",
+        "bOne": "Repo",
+        "bTwo": "Site",
+        "test": [
+            "https://i.ibb.co/XZHV054/icons8-react-native-26.png", 
+            "https://i.ibb.co/5MjbwBs/icons8-javascript-logo-26.png", 
+            "https://i.ibb.co/dLHnwbM/icons8-travis-ci-26.png"
+        ]
     },
     {
         "id": 2,
-        "webHref": "https://uoft-group7-project-1.github.io/Group7_Project-1/",
-        "src": "https://i.ibb.co/QFrbZ4C/Movie.png",
-        "text": "Movie Searcher",
-        "repoText": "Click the image to view the live page or click",
-        "repoLink": "https://github.com/UofT-Group7-Project-1/Group7_Project-1"
+        "webHref": "https://secret-savannah-64299.herokuapp.com/",
+        "src": "https://i.ibb.co/X5pRCNc/google.png",
+        "text": "Google Book Search",
+        "repoLink": "https://github.com/HustinKava/google-books-search",
+        "bOne": "Repo",
+        "bTwo": "Site",
+        "test": "test"
     },
     {
         "id": 3,
-        "webHref": "https://hustinkava.github.io/Code-Quiz/",
-        "src": "https://i.ibb.co/K5kmFmJ/CodeQuiz.png",
-        "text": "Code Quiz",
-        "repoText": "Click the image to view the live page or click",
-        "repoLink": "https://github.com/HustinKava/Code-Quiz"
-    },   
+        "webHref": "https://stormy-springs-60842.herokuapp.com/",
+        "src": "https://i.ibb.co/mXsrzYx/Travel-Planner.png",
+        "text": "Let's Go Travel Planner",
+        "repoLink": "https://github.com/Mcilhaggis/lets-go-travel-planner",
+        "bOne": "Repo",
+        "bTwo": "Site"
+    },
     {
         "id": 4,
-        "webHref": "https://hustinkava.github.io/Password-Generator/",
-        "src": "https://i.ibb.co/khjRbKb/Password.png",
-        "text": "Password Generator",
-        "repoText": "Click the image to view the live page or click",
-        "repoLink": "https://github.com/HustinKava/Password-Generator"
+        "webHref": "https://uoft-group7-project-1.github.io/Group7_Project-1/",
+        "src": "https://i.ibb.co/QFrbZ4C/Movie.png",
+        "text": "Movie Searcher",
+        "repoLink": "https://github.com/UofT-Group7-Project-1/Group7_Project-1",
+        "bOne": "Repo",
+        "bTwo": "Site"
     },
     {
         "id": 5,
-        "webHref": "https://hustinkava.github.io/Weather-Dashboard/",
-        "src": "https://i.ibb.co/DRwrVQ3/Weather.png",
-        "text": "Weather Dashboard",
-        "repoText": "Click the image to view the live page or click",
-        "repoLink": "https://github.com/HustinKava/Weather-Dashboard"
-    },
+        "webHref": "https://hustinkava.github.io/Code-Quiz/",
+        "src": "https://i.ibb.co/K5kmFmJ/CodeQuiz.png",
+        "text": "Code Quiz",
+        "repoLink": "https://github.com/HustinKava/Code-Quiz",
+        "bOne": "Repo",
+        "bTwo": "Site"
+    },   
     {
         "id": 6,
-        "webHref": "https://hustinkava.github.io/Work-Day-Schedule/",
-        "src": "https://i.ibb.co/Z29xQ6D/WorkDay.png",
-        "text": "Work Day Scheduler",
-        "repoText": "Click the image to view the live page or click",
-        "repoLink": "https://github.com/HustinKava/Work-Day-Schedule"
+        "webHref": "https://hustinkava.github.io/Password-Generator/",
+        "src": "https://i.ibb.co/khjRbKb/Password.png",
+        "text": "Password Generator",
+        "repoLink": "https://github.com/HustinKava/Password-Generator",
+        "bOne": "Repo",
+        "bTwo": "Site"
     },
     {
         "id": 7,
-        "webHref": "https://youtu.be/VeKhEJunMI0",
-        "src": "https://i.ibb.co/df50hDz/ReadMe.png",
-        "text": "Readme Generator",
-        "repoText": "Click the image to view the video or click",
-        "repoLink": "https://github.com/HustinKava/Professional-Readme-Generator"
+        "webHref": "https://hustinkava.github.io/Weather-Dashboard/",
+        "src": "https://i.ibb.co/DRwrVQ3/Weather.png",
+        "text": "Weather Dashboard",
+        "repoLink": "https://github.com/HustinKava/Weather-Dashboard",
+        "bOne": "Repo",
+        "bTwo": "Site"
     },
     {
         "id": 8,
-        "webHref": "https://youtu.be/mR7uePdATIk",
-        "src": "https://i.ibb.co/0Qpp5bG/Emp-Summary.png",
-        "text": "Template Engine - Employee Summary",
-        "repoText": "Click the image to view the video or click",
-        "repoLink": "https://github.com/HustinKava/Template-Engine-Employee-Summary"
+        "webHref": "https://hustinkava.github.io/Work-Day-Schedule/",
+        "src": "https://i.ibb.co/Z29xQ6D/WorkDay.png",
+        "text": "Work Day Scheduler",
+        "repoLink": "https://github.com/HustinKava/Work-Day-Schedule",
+        "bOne": "Repo",
+        "bTwo": "Site"
     },
     {
         "id": 9,
-        "webHref": "https://note-taker-uoft.herokuapp.com/notes",
-        "src": "https://i.ibb.co/Nnt99V3/Note-Taker.png",
-        "text": "Note Taker",
-        "repoText": "Click the image to view the live page or click",
-        "repoLink": "https://github.com/HustinKava/Note-Taker"
+        "webHref": "https://youtu.be/VeKhEJunMI0",
+        "src": "https://i.ibb.co/df50hDz/ReadMe.png",
+        "text": "Readme Generator",
+        "repoLink": "https://github.com/HustinKava/Professional-Readme-Generator",
+        "bOne": "Repo",
+        "bTwo": "Video"
     },
     {
         "id": 10,
-        "webHref": "https://www.youtube.com/watch?v=g9tlIpv78nc&feature=youtu.be",
-        "src": "https://i.ibb.co/8chwWY7/Emp-Tracker.png",
-        "text": "Employee Tracker",
-        "repoText": "Click the image to view the video or click",
-        "repoLink": "https://github.com/HustinKava/Employee-Tracker"
+        "webHref": "https://youtu.be/mR7uePdATIk",
+        "src": "https://i.ibb.co/0Qpp5bG/Emp-Summary.png",
+        "text": "Template Engine - Employee Summary",
+        "repoLink": "https://github.com/HustinKava/Template-Engine-Employee-Summary",
+        "bOne": "Repo",
+        "bTwo": "Video"
     },
     {
         "id": 11,
-        "webHref": "https://blooming-citadel-30147.herokuapp.com/",
-        "src": "https://i.ibb.co/7Wq4P3v/Burger.png",
-        "text": "Eat Da Burger",
-        "repoText": "Click the image to view the live page or click",
-        "repoLink": "https://github.com/HustinKava/Eat-Da-Burger"
+        "webHref": "https://note-taker-uoft.herokuapp.com/notes",
+        "src": "https://i.ibb.co/Nnt99V3/Note-Taker.png",
+        "text": "Note Taker",
+        "repoLink": "https://github.com/HustinKava/Note-Taker",
+        "bOne": "Repo",
+        "bTwo": "Site"
     },
     {
         "id": 12,
-        "webHref": "https://infinite-forest-17979.herokuapp.com/",
-        "src": "https://i.ibb.co/Dp3Cgyn/Workout.png",
-        "text": "Workout Tracker",
-        "repoText": "Click the image to view the live page or click",
-        "repoLink": "https://github.com/HustinKava/Workout-Tracker"
+        "webHref": "https://www.youtube.com/watch?v=g9tlIpv78nc&feature=youtu.be",
+        "src": "https://i.ibb.co/8chwWY7/Emp-Tracker.png",
+        "text": "Employee Tracker",
+        "repoLink": "https://github.com/HustinKava/Employee-Tracker",
+        "bOne": "Repo",
+        "bTwo": "Video"
     },
     {
         "id": 13,
-        "webHref": "https://protected-garden-52217.herokuapp.com/",
-        "src": "https://i.ibb.co/q0m6C2Q/Budget.png",
-        "text": "Budget Tracker",
-        "repoText": "Click the image to view the live page or click",
-        "repoLink": "https://github.com/HustinKava/Budget-Tracker"
+        "webHref": "https://blooming-citadel-30147.herokuapp.com/",
+        "src": "https://i.ibb.co/7Wq4P3v/Burger.png",
+        "text": "Eat Da Burger",
+        "repoLink": "https://github.com/HustinKava/Eat-Da-Burger",
+        "bOne": "Repo",
+        "bTwo": "Site"
     },
     {
         "id": 14,
+        "webHref": "https://infinite-forest-17979.herokuapp.com/",
+        "src": "https://i.ibb.co/Dp3Cgyn/Workout.png",
+        "text": "Workout Tracker",
+        "repoLink": "https://github.com/HustinKava/Workout-Tracker",
+        "bOne": "Repo",
+        "bTwo": "Site"
+    },
+    {
+        "id": 15,
+        "webHref": "https://protected-garden-52217.herokuapp.com/",
+        "src": "https://i.ibb.co/q0m6C2Q/Budget.png",
+        "text": "Budget Tracker",
+        "repoLink": "https://github.com/HustinKava/Budget-Tracker",
+        "bOne": "Repo",
+        "bTwo": "Site"
+    },
+    {
+        "id": 16,
         "webHref": "https://rocky-temple-86306.herokuapp.com/",
         "src": "https://i.ibb.co/FKgnjHR/Directory.png",
         "text": "Employee Directory",
-        "repoText": "Click the image to view the live page or click",
-        "repoLink": "https://github.com/HustinKava/Employee-Directory"
+        "repoLink": "https://github.com/HustinKava/Employee-Directory",
+        "bOne": "Repo",
+        "bTwo": "Site"
     } 
 ]
