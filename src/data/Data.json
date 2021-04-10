@@ -4,13 +4,18 @@
         "webHref": "https://guarded-dusk-24354.herokuapp.com/",
         "src": "https://i.ibb.co/6tX1THB/Mind-Share.png",
         "text": "MindShare",
+        "description": "Mindshare is designed to help individuals who are facing the turmoil of isolation. Unlike social media where all your entries are at the scrutiny and judgment of your family, friends and peers. Mindshare is meant to be a safe place where you can make meaningful inputs and track your mood and feelings over a time period, away from scrutiny.",
         "repoLink": "https://github.com/P3TeamTwo/p3",
         "bOne": "Repo",
         "bTwo": "Site",
-        "test": [
-            "https://i.ibb.co/XZHV054/icons8-react-native-26.png", 
-            "https://i.ibb.co/5MjbwBs/icons8-javascript-logo-26.png", 
-            "https://i.ibb.co/dLHnwbM/icons8-travis-ci-26.png"
+        "icons": [
+            "https://i.ibb.co/dtGwpHP/iconfinder-React-js-logo-1174949.png", 
+            "https://i.ibb.co/qFDXKkK/icons8-mongodb-24.png",
+            "https://i.ibb.co/c8sHM9b/iconfinder-233-Node-Js-logo-4375017.png",
+            "https://i.ibb.co/4KC6whZ/5894313931548218185-24.png",
+            "https://i.ibb.co/SdzTbPf/icons8-heroku-24.png",
+            "https://i.ibb.co/dfLR8Zf/icons8-travis-ci-24.png",
+            "https://i.ibb.co/kyQ7LgM/icons8-material-ui-24.png"
         ]
     },
     {
@@ -18,135 +23,241 @@
         "webHref": "https://secret-savannah-64299.herokuapp.com/",
         "src": "https://i.ibb.co/X5pRCNc/google.png",
         "text": "Google Book Search",
+        "description": "Google Book Search is the ultimate library application where users are able to search for a book of their choice. The search will perform a GET request using the Google Books API. Users can see the book title, authors, image, description and click the view button which will transport them to an external site for more information. Users are able to save their favorite books and using Socket.IO a notification will appear.",
         "repoLink": "https://github.com/HustinKava/google-books-search",
         "bOne": "Repo",
         "bTwo": "Site",
-        "test": "test"
+        "icons": [
+            "https://i.ibb.co/dtGwpHP/iconfinder-React-js-logo-1174949.png", 
+            "https://i.ibb.co/qFDXKkK/icons8-mongodb-24.png",
+            "https://i.ibb.co/c8sHM9b/iconfinder-233-Node-Js-logo-4375017.png",
+            "https://i.ibb.co/SdzTbPf/icons8-heroku-24.png",
+            "https://i.ibb.co/dfLR8Zf/icons8-travis-ci-24.png",
+            "https://i.ibb.co/qnvpspn/3585995681551952104-24.png",
+            "https://i.ibb.co/MMVRPjN/icons8-bootstrap-24.png"
+        ]
     },
     {
         "id": 3,
         "webHref": "https://stormy-springs-60842.herokuapp.com/",
         "src": "https://i.ibb.co/mXsrzYx/Travel-Planner.png",
         "text": "Let's Go Travel Planner",
+        "description": "Let's Go Travel Planner is a travel app that helps users plan their trips effortlessly. The app lets users input the name of the city that they would like to travel to. Whenever a user submits a city name, the app will display a list of recommendations for restaurants and activities to do in the city. Users will also be able to create an account and save their itinerary for easy viewing.",
         "repoLink": "https://github.com/Mcilhaggis/lets-go-travel-planner",
         "bOne": "Repo",
-        "bTwo": "Site"
-    },
-    {
-        "id": 4,
-        "webHref": "https://uoft-group7-project-1.github.io/Group7_Project-1/",
-        "src": "https://i.ibb.co/QFrbZ4C/Movie.png",
-        "text": "Movie Searcher",
-        "repoLink": "https://github.com/UofT-Group7-Project-1/Group7_Project-1",
-        "bOne": "Repo",
-        "bTwo": "Site"
+        "bTwo": "Site",
+        "icons": [
+            "https://i.ibb.co/7z1KnxK/iconfinder-jquery-3069646.png",
+            "https://i.ibb.co/c8sHM9b/iconfinder-233-Node-Js-logo-4375017.png",
+            "https://i.ibb.co/VxWy2m7/mysql.png", 
+            "https://i.ibb.co/FVfSnVx/iconfinder-moon-dark-mode-night-5402400.png",
+            "https://i.ibb.co/SdzTbPf/icons8-heroku-24.png",
+            "https://i.ibb.co/dfLR8Zf/icons8-travis-ci-24.png",
+            "https://i.ibb.co/GQ2yH77/icons8-handlebar-mustache-24.png",
+            "https://i.ibb.co/MMVRPjN/icons8-bootstrap-24.png"
+        ]
     },
     {
         "id": 5,
         "webHref": "https://hustinkava.github.io/Code-Quiz/",
         "src": "https://i.ibb.co/K5kmFmJ/CodeQuiz.png",
         "text": "Code Quiz",
+        "description": "Code Quiz has been built for you to test your coding knowledge. The quiz has a countdown timer, so the user must answer correctly within the time frame. The user can only proceed to the next question if they have answered the present question correctly. At the end of the quiz the user is able to store their initials and their score in local storage.",
         "repoLink": "https://github.com/HustinKava/Code-Quiz",
         "bOne": "Repo",
-        "bTwo": "Site"
+        "bTwo": "Site",
+        "icons": [
+            "https://i.ibb.co/NttJZWL/iconfinder-187-Js-logo-logos-4373213.png",
+            "https://i.ibb.co/kBhZN3k/iconfinder-badge-html-5-317755.png",
+            "https://i.ibb.co/yPhh2Sq/iconfinder-badge-css-3-317756.png", 
+            "https://i.ibb.co/GVy10bK/13855371531555590081-24.png"
+        ]
     },   
     {
         "id": 6,
         "webHref": "https://hustinkava.github.io/Password-Generator/",
         "src": "https://i.ibb.co/khjRbKb/Password.png",
         "text": "Password Generator",
+        "description": "With the Password Generator, users are able to create a safe and secure password within their criteria needs. Users are able to choose a password length between 8 and 128 numerical characters long. They will then proceed to be asked if they would like lower case, upper case, numerical and special characters. Validations have been incorporated to ensure that a password is generated based on the application needs. Once the criteria has been met, a password will be generated in the text field. ",
         "repoLink": "https://github.com/HustinKava/Password-Generator",
         "bOne": "Repo",
-        "bTwo": "Site"
+        "bTwo": "Site",
+        "icons": [
+            "https://i.ibb.co/NttJZWL/iconfinder-187-Js-logo-logos-4373213.png",
+            "https://i.ibb.co/kBhZN3k/iconfinder-badge-html-5-317755.png",
+            "https://i.ibb.co/yPhh2Sq/iconfinder-badge-css-3-317756.png", 
+            "https://i.ibb.co/GVy10bK/13855371531555590081-24.png"
+        ]
     },
     {
         "id": 7,
         "webHref": "https://hustinkava.github.io/Weather-Dashboard/",
         "src": "https://i.ibb.co/DRwrVQ3/Weather.png",
         "text": "Weather Dashboard",
+        "description": "The Weather Dashboard application is the go-to website for your 5-day forecast. With an elegant look and user-friendly interface, users are able to search for their city of choice. Using the Open Weather Map API, we are able to retrieve the weather data for the temperature, humidity, wind speed, UV index and weather icon the present date. For the 5-day forecast, users area able to see the predicted weather icon, temperature and humidity. ",
         "repoLink": "https://github.com/HustinKava/Weather-Dashboard",
         "bOne": "Repo",
-        "bTwo": "Site"
+        "bTwo": "Site",
+        "icons": [
+            "https://i.ibb.co/NttJZWL/iconfinder-187-Js-logo-logos-4373213.png",
+            "https://i.ibb.co/7z1KnxK/iconfinder-jquery-3069646.png",
+            "https://i.ibb.co/kBhZN3k/iconfinder-badge-html-5-317755.png",
+            "https://i.ibb.co/yPhh2Sq/iconfinder-badge-css-3-317756.png", 
+            "https://i.ibb.co/GVy10bK/13855371531555590081-24.png",
+            "https://i.ibb.co/vhyfgXZ/momentjs.png",
+            "https://i.ibb.co/MMVRPjN/icons8-bootstrap-24.png"
+        ]
     },
     {
         "id": 8,
         "webHref": "https://hustinkava.github.io/Work-Day-Schedule/",
         "src": "https://i.ibb.co/Z29xQ6D/WorkDay.png",
         "text": "Work Day Scheduler",
+        "description": "Work Day Scheduler is the app to organize your busy schedule. Users are able to input tasks from 9am – 5pm and is designed to align with business hours. Past time is represented by the color grey and the user is blocked from inputting any text. If it is the present hour, the time block will be red and the user is able to input text. Future hours are displayed in green and within these time blocks the user is able to input their tasks.  ",
         "repoLink": "https://github.com/HustinKava/Work-Day-Schedule",
         "bOne": "Repo",
-        "bTwo": "Site"
+        "bTwo": "Site",
+        "icons": [
+            "https://i.ibb.co/NttJZWL/iconfinder-187-Js-logo-logos-4373213.png",
+            "https://i.ibb.co/7z1KnxK/iconfinder-jquery-3069646.png",
+            "https://i.ibb.co/kBhZN3k/iconfinder-badge-html-5-317755.png",
+            "https://i.ibb.co/yPhh2Sq/iconfinder-badge-css-3-317756.png", 
+            "https://i.ibb.co/GVy10bK/13855371531555590081-24.png",
+            "https://i.ibb.co/vhyfgXZ/momentjs.png",
+            "https://i.ibb.co/MMVRPjN/icons8-bootstrap-24.png"
+        ]
     },
     {
         "id": 9,
         "webHref": "https://youtu.be/VeKhEJunMI0",
         "src": "https://i.ibb.co/df50hDz/ReadMe.png",
         "text": "Readme Generator",
+        "description": "The Professional Readme Generator allows users to quickly and sufficiently create readme templates. The user will be asked a series of questions in which the user can tailor to their specific needs. Using Node.js and Inquirer, we are able to make use of the terminals CLI and generate the questions needed as well as the answer in some cases. The readme will then be generated and deposited in an output folder for the user to use at their leisure.",
         "repoLink": "https://github.com/HustinKava/Professional-Readme-Generator",
         "bOne": "Repo",
-        "bTwo": "Video"
+        "bTwo": "Video",
+        "icons": [
+            "https://i.ibb.co/NttJZWL/iconfinder-187-Js-logo-logos-4373213.png",
+            "https://i.ibb.co/c8sHM9b/iconfinder-233-Node-Js-logo-4375017.png"
+        ]
     },
     {
         "id": 10,
         "webHref": "https://youtu.be/mR7uePdATIk",
         "src": "https://i.ibb.co/0Qpp5bG/Emp-Summary.png",
         "text": "Template Engine - Employee Summary",
+        "description": "Template Engine Employee Summary is the application for employers to easily input their employee information. Using Node.js and Inquirer the employer is asked whether the employee is a manager, engineer or a student intern. They will then be able to enter the employees name, id number, email address and GitHub username. Managers will be required to provide their office number. Once complete, a HTML file will be generated in the output folder.",
         "repoLink": "https://github.com/HustinKava/Template-Engine-Employee-Summary",
         "bOne": "Repo",
-        "bTwo": "Video"
+        "bTwo": "Video",
+        "icons": [
+            "https://i.ibb.co/NttJZWL/iconfinder-187-Js-logo-logos-4373213.png",
+            "https://i.ibb.co/c8sHM9b/iconfinder-233-Node-Js-logo-4375017.png",
+            "https://i.ibb.co/MMVRPjN/icons8-bootstrap-24.png"
+        ]
     },
     {
         "id": 11,
         "webHref": "https://note-taker-uoft.herokuapp.com/notes",
         "src": "https://i.ibb.co/Nnt99V3/Note-Taker.png",
         "text": "Note Taker",
+        "description": "Note Taker is the simple solution to having an interactive notepad! With this application, users able to swiftly enter their note title followed by the note description. With an easy to navigate user interface, the user will then see the save button appear in the navbar once the note has met the two requirements. The note will then be saved on the left-hand side and users have the ability to remove notes once completed.  ",
         "repoLink": "https://github.com/HustinKava/Note-Taker",
         "bOne": "Repo",
-        "bTwo": "Site"
+        "bTwo": "Site",
+        "icons": [
+            "https://i.ibb.co/NttJZWL/iconfinder-187-Js-logo-logos-4373213.png",
+            "https://i.ibb.co/c8sHM9b/iconfinder-233-Node-Js-logo-4375017.png",
+            "https://i.ibb.co/kBhZN3k/iconfinder-badge-html-5-317755.png",
+            "https://i.ibb.co/yPhh2Sq/iconfinder-badge-css-3-317756.png",
+            "https://i.ibb.co/SdzTbPf/icons8-heroku-24.png",
+            "https://i.ibb.co/MMVRPjN/icons8-bootstrap-24.png"
+        ]
     },
     {
         "id": 12,
         "webHref": "https://www.youtube.com/watch?v=g9tlIpv78nc&feature=youtu.be",
         "src": "https://i.ibb.co/8chwWY7/Emp-Tracker.png",
         "text": "Employee Tracker",
+        "description": "The Employee Tracker system is a must have for any organization to keep track of their staff, departments, mangers, allocated budgets and employee salaries. Making use of Node.js, Inquirer and the MySQL database, the employer will be able to view all employees. Also, by department, manager and role. Employers are able to add employees, departments and roles. They also have the ability to update roles and employee managers. The final feature is the functionality of being able to remove employees, roles and departments. ",
         "repoLink": "https://github.com/HustinKava/Employee-Tracker",
         "bOne": "Repo",
-        "bTwo": "Video"
+        "bTwo": "Video",
+        "icons": [
+            "https://i.ibb.co/NttJZWL/iconfinder-187-Js-logo-logos-4373213.png",
+            "https://i.ibb.co/c8sHM9b/iconfinder-233-Node-Js-logo-4375017.png",
+            "https://i.ibb.co/VxWy2m7/mysql.png"
+        ]
     },
     {
         "id": 13,
         "webHref": "https://blooming-citadel-30147.herokuapp.com/",
         "src": "https://i.ibb.co/7Wq4P3v/Burger.png",
         "text": "Eat Da Burger",
+        "description": "Eat-Da-Burger provides users with a safe haven where they will be able to stack burgers ready for consumption. Simply enter your desired burger of choice and watch it dynamically be placed in the burgers ready to be devoured list! When the user is ready, they click the devour button, which then will place the burger in the burgers that have been devoured list. From here the user is able to remove the devoured burgers! ",
         "repoLink": "https://github.com/HustinKava/Eat-Da-Burger",
         "bOne": "Repo",
-        "bTwo": "Site"
+        "bTwo": "Site",
+        "icons": [
+            "https://i.ibb.co/NttJZWL/iconfinder-187-Js-logo-logos-4373213.png",
+            "https://i.ibb.co/c8sHM9b/iconfinder-233-Node-Js-logo-4375017.png",
+            "https://i.ibb.co/VxWy2m7/mysql.png",
+            "https://i.ibb.co/SdzTbPf/icons8-heroku-24.png",
+            "https://i.ibb.co/dfLR8Zf/icons8-travis-ci-24.png",
+            "https://i.ibb.co/GQ2yH77/icons8-handlebar-mustache-24.png",
+            "https://i.ibb.co/MMVRPjN/icons8-bootstrap-24.png"
+        ]
     },
     {
         "id": 14,
         "webHref": "https://infinite-forest-17979.herokuapp.com/",
         "src": "https://i.ibb.co/Dp3Cgyn/Workout.png",
         "text": "Workout Tracker",
+        "description": "Workout Tracker enables a user to add workouts as a part of their daily schedule. With this application, users are able to add new exercises and view their stats using the built-in dashboard. All entries are stored into the MongoDB database using Mongoose. The information displayed on the graphs and pie charts are the result of the data being pulled from the database.",
         "repoLink": "https://github.com/HustinKava/Workout-Tracker",
         "bOne": "Repo",
-        "bTwo": "Site"
+        "bTwo": "Site",
+        "icons": [
+            "https://i.ibb.co/NttJZWL/iconfinder-187-Js-logo-logos-4373213.png",
+            "https://i.ibb.co/c8sHM9b/iconfinder-233-Node-Js-logo-4375017.png",
+            "https://i.ibb.co/qFDXKkK/icons8-mongodb-24.png",
+            "https://i.ibb.co/SdzTbPf/icons8-heroku-24.png",
+            "https://i.ibb.co/dfLR8Zf/icons8-travis-ci-24.png",
+            "https://i.ibb.co/R3BwshK/5796209.png"
+        ]
     },
     {
         "id": 15,
         "webHref": "https://protected-garden-52217.herokuapp.com/",
         "src": "https://i.ibb.co/q0m6C2Q/Budget.png",
         "text": "Budget Tracker",
+        "description": "Budget Tracker allows users to keep track of their incoming and outgoing transactions! The application updates the user’s budget in real time whenever a transaction is submitted. It also has the capability to run offline so users don’t need to worry if they lose connection. The data will be stored in IndexedDB until the user has online access. Once the user is back online, the data will be input into the MongoDB database.",
         "repoLink": "https://github.com/HustinKava/Budget-Tracker",
         "bOne": "Repo",
-        "bTwo": "Site"
+        "bTwo": "Site",
+        "icons": [
+            "https://i.ibb.co/NttJZWL/iconfinder-187-Js-logo-logos-4373213.png",
+            "https://i.ibb.co/c8sHM9b/iconfinder-233-Node-Js-logo-4375017.png",
+            "https://i.ibb.co/qFDXKkK/icons8-mongodb-24.png",
+            "https://i.ibb.co/SdzTbPf/icons8-heroku-24.png",
+            "https://i.ibb.co/dfLR8Zf/icons8-travis-ci-24.png",
+            "https://i.ibb.co/MMVRPjN/icons8-bootstrap-24.png"
+        ]
     },
     {
         "id": 16,
         "webHref": "https://rocky-temple-86306.herokuapp.com/",
         "src": "https://i.ibb.co/FKgnjHR/Directory.png",
         "text": "Employee Directory",
+        "description": "Employee Directory is a simulated application that uses an API call when the page is loaded to render a list of 20 random users. The user is able to see an image of each employee, their name, phone number, email address and date of birth. Using the search input field, users are able to filter specific names and the application sorts in real time while there is input. Users are also able to sort by name, phone number, email and date of birth by both ascending and descending order when clicking on the carrots.",
         "repoLink": "https://github.com/HustinKava/Employee-Directory",
         "bOne": "Repo",
-        "bTwo": "Site"
+        "bTwo": "Site",
+        "icons": [
+            "https://i.ibb.co/dtGwpHP/iconfinder-React-js-logo-1174949.png",
+            "https://i.ibb.co/c8sHM9b/iconfinder-233-Node-Js-logo-4375017.png",
+            "https://i.ibb.co/SdzTbPf/icons8-heroku-24.png",
+            "https://i.ibb.co/MMVRPjN/icons8-bootstrap-24.png"
+        ]
     } 
 ]
