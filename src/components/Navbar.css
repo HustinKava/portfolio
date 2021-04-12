@@ -13,3 +13,7 @@
 .PrivateTabIndicator-colorPrimary-2 {
     background-color: #a0dbe6 !important;
 }
+
+.MuiTabs-flexContainer {
+    padding-bottom: 10px !important;
+}

@@ -7,7 +7,7 @@ import Resume from '../resume/Resume.pdf';
 function About () {
 
     return (
-        <Container className='container' maxWidth="md">
+        <Container id='About' className='container' maxWidth="md">
             <Grid className='bioSpace' container spacing={0}>
                 <Grid item xs={12} sm={6}>
                     <div>
