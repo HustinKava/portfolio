@@ -1,0 +1,15 @@
+.MuiPaper-root {
+    background-color: #65bdcc !important;
+}
+
+.MuiTab-textColorPrimary {
+    color: white !important;
+}
+
+.MuiTab-textColorPrimary.Mui-selected {
+    color: #a0dbe6 !important;
+}
+
+.PrivateTabIndicator-colorPrimary-2 {
+    background-color: #a0dbe6 !important;
+}

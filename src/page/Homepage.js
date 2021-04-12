@@ -2,6 +2,8 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import About from '../components/About';
 import Portfolio from '../components/Portfolio';
+import Particles from 'react-particles-js';
+import particleConfig from '../components/configParticles';
 import './Homepage.css';
 
 function Homepage () {
@@ -9,8 +11,16 @@ function Homepage () {
     return (
         <div>
             <Navbar/>
+            <div className='App' style={{position:'relative', overflow: 'hidden'}}>
+            <div className='particlesDiv' style={{ position: 'absolute', zIndex: '-1'}}>
+            <Particles className='particles' params={particleConfig} />
+            </div>
+            <div className='space'/>
             <About/>
+            <div className='space'/>
             <Portfolio/>
+            <div className='space'/>
+            </div>
         </div>
     )
 };
