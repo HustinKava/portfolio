@@ -16,7 +16,7 @@ function Homepage () {
             <div className='particlesDiv' style={{ position: 'absolute', zIndex: '-1'}}>
             <Particles className='particles' params={particleConfig} />
             </div>
-            <div className='topSpace'/>
+            {/* <div className='topSpace'/> */}
             <About/>
             <div className='space'/>
             <Portfolio/>
