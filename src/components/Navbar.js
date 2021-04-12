@@ -9,7 +9,7 @@ function Navbar () {
     const handleTabs = (e, val) => {
         setValue(val)
     };
-
+   
     return (
         <div style={{position: "fixed", top:"0", width:"100%", zIndex: '100', borderBottom: 'solid 5px white'}}>
         <Paper >
@@ -30,3 +30,4 @@ function Navbar () {
 };
 
 export default Navbar;
+
