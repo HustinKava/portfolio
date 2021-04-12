@@ -8,10 +8,7 @@
     margin-right: auto;
 }
 
-.container {
-    border-radius: 5%;
-    background-color: aliceblue;
-}
+
 
 .bio {
     padding-bottom: 20px;
@@ -36,6 +33,7 @@
 
 .skillTitle {
     border-top: solid 5px white;
+    padding-bottom: 2%;
 }
 
 .skills {
@@ -55,15 +53,39 @@
 }
 
 .name {
+    color: white;
     display: block;
     font-size: 60px;
     margin-top: 0px;
-    margin-bottom: 6px;
+    margin-bottom: 0px;
+    font-family: Raleway, sans-serif;
+}
 
-    /* margin-block-start: 0em;
+h3 {
+    color: white;
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 0.5em;
     margin-block-end: 0em;
     margin-inline-start: 0px;
-    margin-inline-end: 0px; */
-    /* font-weight: 800; */
-    font-family: Raleway, sans-serif;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.bioSpace {
+    padding-top: 5%;
+}
+
+.FullStack {
+    padding-bottom: 5%;
+}
+
+.contact {
+    display: inline;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.contactBox {
+    padding-top: 10%;
 }

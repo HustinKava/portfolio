@@ -8,48 +8,44 @@ function About () {
 
     return (
         <Container className='container' maxWidth="md">
-            <h1 style={{textAlign:'center'}}>About Me</h1>
-
-            <Grid  container spacing={0}>
+            <Grid className='bioSpace' container spacing={0}>
                 <Grid item xs={12} sm={6}>
                     <div>
                     <h3>Hi, I'm</h3>
                     <h2 className='name'>Hustin Kava</h2>
-                    <h3>Full-Stack Developer</h3>
+                    <h3 className='FullStack'><img src="https://i.ibb.co/ZWZzj8S/iconfinder-Arrow-doodle-16-3847918.png" alt="arrow"/>Full-Stack Developer</h3>
                     <p>
-                        Freshly graduated from the University of Toronto's Full-Stack Coding Bootcamp and excited to see where this new adventure takes me.
+                    With a passion to code and a desire to learn, I am highly ambitious and ready to make an impact on dynamic and innovative projects. Aside from coding and being exceedingly technology-driven, my passions branch out into various areas, such as cars, travelling, and indulging in culinary delights. 
                     </p>
                     <p>
-                        Originally born and raised in London, England but now currently residing in Alberta, Canada. 
-                    </p>
-                    <p>
-                        With a passion to code and a desire to learn, I am ready to make an impact on dynamic and innovative projects.
+                    Want to know more? Well, what are you waiting for? I am only a click away from sharing my vision of the world with you. Are you ready for me? I am definitely ready for you!
                     </p>
 
-                    <p>Email: HustinKava@gmail.com</p>
-                    <p>Phone: 403-919-9102</p>
+                    <div className='contactBox'>
+                    <h3>Email: <span className='contact'>HustinKava@gmail.com</span></h3>
+                    <h3>Phone: <span className='contact'>403-919-9102</span></h3>
                     </div>
 
-
+                    </div>                
                 </Grid>
                 <Grid item xs={12} sm={6}>
                     <img className='profile' src={ProfilePic} alt='Profile'/>
                     <div className='social'>
                     <div>
                         <a href="http://www.linkedin.com/in/hustin-kava" target="_blank" rel="noopener noreferrer">
-                            <img src="https://i.ibb.co/D1hqnyL/iconfinder-linkedin-circle-color-107178-1.png" alt="linkedin" className='icon'/>
+                            <img src="https://i.ibb.co/YNwNV3L/iconfinder-circle-linkedin-317750.png" alt="linkedin" className='icon'/>
                         </a>
                         <p>Linkedin</p>
                     </div>
                     <div>
                         <a href={Resume} target="_blank" rel="noopener noreferrer">
-                        <img src="https://i.ibb.co/RvLKBnj/iconfinder-pdf-01-3079281-1.png" alt="resume" className='icon'/>
+                        <img src="https://i.ibb.co/pWS2CLK/pdf-icon.png" alt="resume" className='icon'/>
                         </a>
                         <p>Resume</p>
                     </div>
                     <div>
                         <a href="https://github.com/HustinKava" target="_blank" rel="noopener noreferrer">
-                        <img src="https://i.ibb.co/6XXQ4fX/iconfinder-github-circle-color-107173-1.png" alt="github" className='icon'/>
+                        <img src="https://i.ibb.co/JjqDx3j/iconfinder-github-287583.png" alt="github" className='icon'/>
                         </a>
                         <p>GitHub</p>
                     </div>
@@ -58,11 +54,11 @@ function About () {
             </Grid>
                 
 
-            <h2 className='skillTitle' style={{textAlign:'center'}}>Skills</h2>
+            <div className='skillTitle'></div>
 
             <div className='skills'>
                 <div>
-                    <img src="https://i.ibb.co/dtGwpHP/iconfinder-React-js-logo-1174949.png" alt="react" className='icon'/>
+                    <img src="https://i.ibb.co/HNMnVwV/1174949-24.png" alt="react" className='icon'/>
                     <p className='text'>React</p>
                 </div>
                 <div>
@@ -78,7 +74,7 @@ function About () {
                     <p className='text'>CSS</p>
                 </div>
                 <div>
-                    <img src="https://i.ibb.co/c8sHM9b/iconfinder-233-Node-Js-logo-4375017.png" alt="nodejs" className='icon'/>
+                    <img src="https://i.ibb.co/QvJ4Q6Y/iconfinder-icon.png" alt="nodejs" className='icon'/>
                     <p className='text'>Node.js</p>
                 </div>
                 <div>
@@ -86,7 +82,7 @@ function About () {
                     <p className='text'>MySQL</p>
                 </div>
                 <div>
-                    <img src="https://i.ibb.co/qFDXKkK/icons8-mongodb-24.png" alt="mongodb" className='icon'/>
+                    <img src="https://i.ibb.co/mvmmCsf/uxwing-svg-icon-editor.png" alt="mongodb" className='icon'/>
                     <p className='text'>MongoDB</p>
                 </div>
                 <div>
