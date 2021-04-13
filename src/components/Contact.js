@@ -39,7 +39,7 @@ function Contact () {
     const classes = useStyles();
 
     return (
-        <Container id='Contact' className='container' maxWidth="md">
+        <Container className='container' maxWidth="md">
             <h1>Contact Form</h1>   
                     <div
                         style={{
