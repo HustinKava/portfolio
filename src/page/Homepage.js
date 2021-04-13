@@ -12,8 +12,8 @@ function Homepage () {
     return (
         <div>
             <Navbar/>
-            <div className='App' style={{position:'relative', overflow: 'hidden'}}>
-            <div className='particlesDiv' style={{ position: 'absolute', zIndex: '-1'}}>
+            <div className='App' style={{position:'relative'}}>
+            <div className='particlesDiv' style={{ position: 'absolute', zIndex: '-1' }}>
             <Particles className='particles' params={particleConfig} />
             </div>
             <div id='About' className='space About'/>
