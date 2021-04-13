@@ -11,7 +11,7 @@ function Navbar () {
     };
    
     return (
-        <div style={{position: "fixed", top:"0", width:"100%", zIndex: '100', borderBottom: 'solid 5px white'}}>
+        <div style={{position: "sticky", top:"0", width:"100%", zIndex: '100', borderBottom: 'solid 5px white'}}>
         <Paper >
         <Tabs
             onChange={handleTabs}

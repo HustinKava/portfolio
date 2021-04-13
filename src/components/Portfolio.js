@@ -12,7 +12,7 @@ SwiperCore.use([Mousewheel, Pagination, Autoplay]);
 function Portfolio () {
 
     return (
-        <Container id='Portfolio' className='container' maxWidth="md">
+        <Container className='container' maxWidth="md">
             <Swiper
                 spaceBetween={50}
                 slidesPerView={1}
