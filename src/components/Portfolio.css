@@ -89,7 +89,8 @@ h1 {
 
 .container {
     border-radius: 25px;
-    background-color: #65bdcc;
+    /* background-color: #65bdcc; */
+    background-color: #71afed;
     border: solid 5px white;
     /* ORIGINAL e4fbff */
     /* 65bdcc */
@@ -97,9 +98,9 @@ h1 {
 
 /* MEDIA QUERIES */
 /* Extra small devices (Tested with Iphone X) */
-@media (min-width: 375px) { .slide-number, .slide-detail-tech, .slide-detail-facts, .descriptionText {text-align: center;}}
-@media (min-width: 375px) { .slide-detail-tech {padding-bottom: 0%;}} 
-@media (min-width: 375px) { .slide-detail {padding-top: 0%;}} 
+@media (min-width: 360px) { .slide-number, .slide-detail-tech, .slide-detail-facts, .descriptionText {text-align: center;}}
+@media (min-width: 360px) { .slide-detail-tech {padding-bottom: 0%;}} 
+@media (min-width: 360px) { .slide-detail {padding-top: 0%;}} 
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { .slide-number, .slide-detail-tech, .slide-detail-facts, .descriptionText {text-align: left;}}

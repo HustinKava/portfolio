@@ -82,7 +82,11 @@ h3 {
 
 .iconText {
     font-size: 13px;
-    /* margin-bottom: -1px; */
+    margin-top: 1px;
+}
+
+.socialText {
+    margin-top: 1px;
 }
 
 .text {
@@ -90,13 +94,13 @@ h3 {
 }
 
 /* MEDIA QUERIES */
-/* Extra small devices (Tested with Iphone X) */
-@media (min-width: 375px) { .profile  {width: 55%; height: 65%;}}
-@media (min-width: 375px) { .name, .FullStack, .text, .contactBox  {text-align: center;}}
-@media (min-width: 375px) { .social  {padding-top: 10%;}}
-@media (min-width: 375px) { .contactBox  {padding-top: 0%; padding-bottom: 5%;}}
-@media (min-width: 375px) { .iconText  {font-size: 10px;}}
-@media (min-width: 375px) { .iconSkill  {width: auto; height: 30%;}}
+/* Extra small devices (Tested with Iphone X, Galaxy S5, Iphone 8) */
+@media (min-width: 360px) { .profile  {width: 55%; height: 65%;}}
+@media (min-width: 360px) { .name, .FullStack, .text, .contactBox  {text-align: center;}}
+@media (min-width: 360px) { .social  {padding-top: 10%;}}
+@media (min-width: 360px) { .contactBox  {padding-top: 0%; padding-bottom: 5%;}}
+@media (min-width: 360px) { .iconText  {font-size: 10px;}}
+@media (min-width: 360px) { .iconSkill  {width: auto; height: 30%;}}
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { .profile  {width: 55%; height: 65%;}}
@@ -125,7 +129,7 @@ h3 {
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { .profile  {width: 70%; height: 70%;}} 
 @media (min-width: 1200px) { .name, .FullStack, .text, .contactBox  {text-align: left;}}
-@media (min-width: 1200px) { .social  {padding-top: 14%;}}
+@media (min-width: 1200px) { .social  {padding-top: 18%;}}
 @media (min-width: 1200px) { .contactBox  {padding-top: 5%; padding-bottom: 0%;}}
 @media (min-width: 1200px) { .iconText  {font-size: 13px;}}
 @media (min-width: 1200px) { .iconSkill  {width: auto; height: auto;}}
