@@ -10,7 +10,7 @@ const useStyles = makeStyles({
         borderColor: "white"
       },
       "&:hover .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline": {
-        borderColor: "blue"
+        borderColor: "#BADFFF"
       },
       "& .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline": {
         borderColor: "white"
@@ -19,7 +19,7 @@ const useStyles = makeStyles({
         color: "white"
       },
       "&:hover .MuiOutlinedInput-input": {
-        color: "blue"
+        color: "#BADFFF"
       },
       "& .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-input": {
         color: "white"
@@ -28,7 +28,7 @@ const useStyles = makeStyles({
         color: "white"
       },
       "&:hover .MuiInputLabel-outlined": {
-        color: "blue"
+        color: "#BADFFF"
       },
       "& .MuiInputLabel-outlined.Mui-focused": {
         color: "white"
