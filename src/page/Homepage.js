@@ -16,11 +16,11 @@ function Homepage () {
             <div className='particlesDiv' style={{ position: 'fixed', zIndex: '-1' }}>
             <Particles className='particles' params={particleConfig} />
             </div>
-            <div id='About' className='space About'/>
+            <div id='About' className='space'/>
             <About/>
-            <div id='Portfolio' className='space Portfolio'/>
+            <div id='Portfolio' className='space'/>
             <Portfolio/>
-            <div id='Contact' className='space Contact'/>
+            <div id='Contact' className='space'/>
             <Contact/>
             <div className='space'/>
             </div>
