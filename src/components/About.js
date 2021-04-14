@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Grid } from '@material-ui/core';
+import { Container, Grid, } from '@material-ui/core';
 import './About.css';
 import ProfilePic from '../images/ProfilePic.png';
 import Resume from '../resume/Resume.pdf';
@@ -8,28 +8,41 @@ function About () {
 
     return (
         <Container className='container' maxWidth="md">
-            <Grid className='bioSpace' container spacing={0}>
-                <Grid item xs={12} sm={6}>
-                    <div>
+            
+            <Grid className='bioSpace switch' container spacing={0}>
+                <Grid container spacing={0}>
+                    <Grid item xs={12} sm={6} md={6} lg={6}>
                     <h3>Hi, I'm</h3>
                     <h2 className='name'>Hustin Kava</h2>
                     <h3 className='FullStack'><img src="https://i.ibb.co/ZWZzj8S/iconfinder-Arrow-doodle-16-3847918.png" alt="arrow"/>Full-Stack Developer</h3>
+                    </Grid>
+                    <Grid item xs={12} sm={6} md={6} lg={6}>
+                    <img className='profile' src={ProfilePic} alt='Profile'/>
+                    </Grid>
+                </Grid>
+                
+                <Grid container spacing={0}>
+                    <Grid item xs={12} sm={6} md={6} lg={6}>
+                    <div className='bioText'>
                     <p className='text'>
                     With a passion to code and a desire to learn, I am highly ambitious and ready to make an impact on dynamic and innovative projects. Aside from coding and being exceedingly technology-driven, my passions branch out into various areas, such as cars, travelling, and indulging in culinary delights. 
                     </p>
                     <p className='text'>
                     Want to know more? Well, what are you waiting for? I am only a click away from sharing my vision of the world with you. Are you ready for me? I am definitely ready for you!
                     </p>
+                    </div>
+                    </Grid>
+                </Grid>
+            </Grid>
 
+            <Grid className='bioSpace' container spacing={0}>
+                <Grid className='contactSpace' item xs={12} sm={6}>
                     <div className='contactBox'>
                     <h3>Email: <span className='contact'>HustinKava@gmail.com</span></h3>
                     <h3>Phone: <span className='contact'>403-919-9102</span></h3>
                     </div>
-
-                    </div>                
                 </Grid>
                 <Grid item xs={12} sm={6}>
-                    <img className='profile' src={ProfilePic} alt='Profile'/>
                     <div className='social'>
                     <div>
                         <a href="http://www.linkedin.com/in/hustin-kava" target="_blank" rel="noopener noreferrer">
