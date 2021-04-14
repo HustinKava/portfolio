@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
 .container {
     border-radius: 2.5%;
     background-color: #65bdcc;
@@ -43,8 +45,8 @@
 
 /* Tech Icons */
 .slide-detail-facts {
+    padding-top: 5%;
     position: relative;
-    z-index: 10;
     overflow: hidden;
     margin-left: 10px;
 }
@@ -68,10 +70,6 @@ h1 {
     color: white;
 }
 
-.slide-detail-tech {
-    padding-bottom: 3%;
-}
-
 .MuiButton-outlinedPrimary {
     color: white !important;
     border: 1px solid rgb(255 255 255 / 50%) !important;
@@ -80,4 +78,47 @@ h1 {
 :root {
     --swiper-theme-color: #fff !important;
 }
+
+.technologies {
+    display: inline;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.techImg {
+    margin-bottom: -1%;
+}
+
+.descriptionText {
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* MEDIA QUERIES */
+/* Extra small devices (Tested with Iphone X) */
+@media (min-width: 375px) { .slide-number, .slide-detail-tech, .slide-detail-facts {text-align: center;}}
+@media (min-width: 375px) { .slide-detail-tech {padding-bottom: 0%;}} 
+@media (min-width: 375px) { .slide-detail {padding-top: 0%;}} 
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { .slide-number, .slide-detail-tech, .slide-detail-facts {text-align: left;}}
+@media (min-width: 576px) { .slide-detail-tech {padding-bottom: 0%;}} 
+@media (min-width: 576px) { .slide-detail {padding-top: 0%;}} 
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { .slide-number, .slide-detail-tech, .slide-detail-facts {text-align: left;}}
+@media (min-width: 768px) { .slide-detail-tech {padding-bottom: 0%;}} 
+@media (min-width: 768px) { .slide-detail {padding-top: 0%;}} 
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { .slide-number, .slide-detail-tech, .slide-detail-facts {text-align: left;}}
+@media (min-width: 992px) { .slide-detail-tech {padding-bottom: 0%;}} 
+@media (min-width: 992px) { .slide-detail {padding-top: 0%;}} 
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { .slide-number, .slide-detail-tech, .slide-detail-facts {text-align: left;}} 
+@media (min-width: 1200px) { .slide-detail-tech {padding-bottom: 3%;}} 
+@media (min-width: 1200px) { .slide-detail {padding-top: 5%;}} 
+
+
 
