@@ -40,10 +40,6 @@
     justify-content: space-evenly;
 }
 
-.icon {
-    font-size: 26px;
-}
-
 .name {
     color: white;
     display: block;
@@ -81,7 +77,11 @@ h3 {
 
 .iconText {
     font-size: 13px;
-    margin-top: 1px;
+    /* margin-top: 1px; */
+}
+
+.icon {
+    font-size: 26px;
 }
 
 .socialText {
@@ -92,52 +92,81 @@ h3 {
     font-family: 'Nunito', sans-serif;
 }
 
-/* font-size: 60px; */
+@media (max-width: 360px) {
+    .switch {
+      display: -webkit-box !important;
+      display: -moz-box !important;
+      display: -ms-flexbox !important;
+      display: -webkit-flex !important;
+      display: flex !important;
+      -webkit-box-orient: vertical !important;
+      -moz-box-orient: vertical !important;
+      -webkit-flex-direction: column !important;
+      -ms-flex-direction: column !important;
+      flex-direction: column !important;
+    }
 
+    .switch .first_div {
+        -webkit-box-ordinal-group: 2 !important;
+        -moz-box-ordinal-group: 2 !important;
+        -ms-flex-order: 2 !important;
+        -webkit-order: 2 !important;
+        order: 2 !important;
+      }
+    
+      .switch .second_div {
+        -webkit-box-ordinal-group: 1 !important;
+        -moz-box-ordinal-group: 1 !important;
+        -ms-flex-order: 1 !important;
+        -webkit-order: 1 !important;
+        order: 1 !important;
+      }
+}
 
 /* MEDIA QUERIES */
 /* Extra small devices (Tested with Iphone X, Galaxy S5, Iphone 8) */
-@media (min-width: 360px) { .profile  {width: 55%; height: 65%;}}
+@media (min-width: 360px) { .profile  {width: 70%; height: 85%; margin-top: 10px;}}
 @media (min-width: 360px) { .name  {font-size: 50px;}}
 @media (min-width: 360px) { .name, .FullStack, .text, .contactBox  {text-align: center;}}
-@media (min-width: 360px) { .social  {padding-top: 10%;}}
-@media (min-width: 360px) { .contactBox  {padding-top: 0%; padding-bottom: 5%;}}
+@media (min-width: 360px) { .contactBox  {margin-bottom: 10%;}}
 @media (min-width: 360px) { .iconText  {font-size: 10px;}}
 @media (min-width: 360px) { .iconSkill  {width: auto; height: 30%;}}
+@media (min-width: 360px) { .bioText  { margin-top: 0px;}}
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { .profile  {width: 80%; height: 65%;}}
+@media (min-width: 576px) { .profile  {width: 90%; height: 85%; margin-top: 50px;}}
 @media (min-width: 576px) { .name  {font-size: 50px;}}
 @media (min-width: 576px) { .name, .FullStack, .text, .contactBox  {text-align: left;}}
-@media (min-width: 576px) { .social  {padding-top: 35%;}}
-@media (min-width: 576px) { .contactBox  {padding-top: 10%; padding-bottom: 0%;}}
+@media (min-width: 576px) { .contactBox  {margin-bottom: 0;}}
 @media (min-width: 576px) { .iconText  {font-size: 13px;}}
 @media (min-width: 576px) { .iconSkill  {width: auto; height: auto;}}
+@media (min-width: 576px) { .bioText  { margin-top: -220px;}}
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { .profile  {width: 65%; height: 65%;}}
+@media (min-width: 768px) { .profile  {width: 70%; height: 85%; margin-top: 50px;}}
 @media (min-width: 768px) { .name  {font-size: 60px;}}
 @media (min-width: 768px) { .name, .FullStack, .text, .contactBox  {text-align: left;}}
-@media (min-width: 768px) { .social  {padding-top: 20%;}}
-@media (min-width: 768px) { .contactBox  {padding-top: 10%; padding-bottom: 0%;}}
+@media (min-width: 768px) { .contactBox  {margin-bottom: 0;}}
 @media (min-width: 768px) { .iconText  {font-size: 13px;}}
 @media (min-width: 768px) { .iconSkill  {width: auto; height: auto;}}
+@media (min-width: 768px) { .bioText  { margin-top: -170px;}}
 
 /* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { .profile  {width: 70%; height: 70%;}}
+@media (min-width: 992px) { .profile  {width: 70%; height: 85%; margin-top: 50px;}}
 @media (min-width: 992px) { .name  {font-size: 60px;}}
 @media (min-width: 992px) { .name, .FullStack, .text, .contactBox  {text-align: left;}}
-@media (min-width: 992px) { .social  {padding-top: 10%;}}
-@media (min-width: 992px) { .contactBox  {padding-top: 10%; padding-bottom: 0%;}}
+@media (min-width: 992px) { .contactBox  {margin-bottom: 0;}}
 @media (min-width: 992px) { .iconText  {font-size: 13px;}}
 @media (min-width: 992px) { .iconSkill  {width: auto; height: auto;}}
+@media (min-width: 992px) { .bioText  { margin-top: -210px;}}
 
 /* // Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { .profile  {width: 70%; height: 70%;}}
+@media (min-width: 1200px) { .profile  {width: 70%; height: 90%; margin-top: 20px;}}
 @media (min-width: 1200px) { .name  {font-size: 60px;}}
 @media (min-width: 1200px) { .name, .FullStack, .text, .contactBox  {text-align: left;}}
-@media (min-width: 1200px) { .social  {padding-top: 18%;}}
-@media (min-width: 1200px) { .contactBox  {padding-top: 5%; padding-bottom: 0%;}}
+@media (min-width: 1200px) { .contactBox  {margin-bottom: 0;}}
 @media (min-width: 1200px) { .iconText  {font-size: 13px;}}
 @media (min-width: 1200px) { .iconSkill  {width: auto; height: auto;}}
+@media (min-width: 1200px) { .bioText  { margin-top: -210px;}}
+
 
