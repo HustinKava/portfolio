@@ -1,5 +1,6 @@
 .MuiPaper-root {
-    background-color: #65bdcc !important;
+    /* background-color: #65bdcc !important; */
+    background-color: #71afed !important;
 }
 
 .MuiTab-textColorPrimary {
@@ -7,11 +8,14 @@
 }
 
 .MuiTab-textColorPrimary.Mui-selected {
-    color: #a0dbe6 !important;
+
+    /* color: #a0dbe6 !important; */
+    color: #A4D1EB !important;
+
 }
 
 .PrivateTabIndicator-colorPrimary-2 {
-    background-color: #a0dbe6 !important;
+    background-color: #A4D1EB !important;
 }
 
 .MuiTabs-flexContainer {

@@ -35,19 +35,19 @@ function About () {
                         <a href="http://www.linkedin.com/in/hustin-kava" target="_blank" rel="noopener noreferrer">
                             <img src="https://i.ibb.co/YNwNV3L/iconfinder-circle-linkedin-317750.png" alt="linkedin" className='icon'/>
                         </a>
-                        <p>Linkedin</p>
+                        <p className='socialText'>Linkedin</p>
                     </div>
                     <div>
                         <a href={Resume} target="_blank" rel="noopener noreferrer">
                         <img src="https://i.ibb.co/pWS2CLK/pdf-icon.png" alt="resume" className='icon'/>
                         </a>
-                        <p>Resume</p>
+                        <p className='socialText'>Resume</p>
                     </div>
                     <div>
                         <a href="https://github.com/HustinKava" target="_blank" rel="noopener noreferrer">
                         <img src="https://i.ibb.co/JjqDx3j/iconfinder-github-287583.png" alt="github" className='icon'/>
                         </a>
-                        <p>GitHub</p>
+                        <p className='socialText'>GitHub</p>
                     </div>
                     </div>
                 </Grid>

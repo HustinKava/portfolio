@@ -4,8 +4,8 @@
 
 /* MEDIA QUERIES */
 /* Extra small devices (Tested with Iphone X) */
-@media (min-width: 375px) { .formSize  {padding-bottom: 5px !important; width: 100%;}}
-@media (min-width: 375px) { .contactTitle  {text-align: center;}}
+@media (min-width: 360px) { .formSize  {padding-bottom: 5px !important; width: 100%;}}
+@media (min-width: 360px) { .contactTitle  {text-align: center;}}
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { .formSize  {padding-bottom: 5px !important; width: 85%;}}
 @media (min-width: 576px) { .contactTitle  {text-align: left;}}
