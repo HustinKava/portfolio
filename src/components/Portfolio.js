@@ -96,7 +96,7 @@ function Portfolio () {
                                     </div>
                                     <div className="slide-detail-facts">
                                         <div>
-                                        <h3 className='technologies'>Technologies: </h3>
+                                        <h3 className='technologies'>Tech: </h3>
                                         { Array.isArray(slide.icons) && slide.icons.map(url => {
                                             return (
                                                 <img className='techImg' key={url} src={url}  alt='Icon'/>
