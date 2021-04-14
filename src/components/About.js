@@ -85,10 +85,10 @@ function About () {
                     <img src="https://i.ibb.co/mvmmCsf/uxwing-svg-icon-editor.png" alt="mongodb" className='iconSkill'/>
                     <p className='iconText'>MongoDB</p>
                 </div>
-                <div>
+                {/* <div>
                     <img src="https://i.ibb.co/gVZGhj9/6929231-24.png" alt="vscode" className='iconSkill'/>
                     <p className='iconText'>VSCode</p>
-                </div>
+                </div> */}
                 <div>
                     <img src="https://i.ibb.co/SdzTbPf/icons8-heroku-24.png" alt="heroku" className='iconSkill'/>
                     <p className='iconText'>Heroku</p>
