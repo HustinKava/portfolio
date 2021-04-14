@@ -109,7 +109,7 @@ h3 {
 @media (min-width: 576px) { .profile  {width: 80%; height: 65%;}}
 @media (min-width: 576px) { .name  {font-size: 50px;}}
 @media (min-width: 576px) { .name, .FullStack, .text, .contactBox  {text-align: left;}}
-@media (min-width: 576px) { .social  {padding-top: 19%;}}
+@media (min-width: 576px) { .social  {padding-top: 35%;}}
 @media (min-width: 576px) { .contactBox  {padding-top: 10%; padding-bottom: 0%;}}
 @media (min-width: 576px) { .iconText  {font-size: 13px;}}
 @media (min-width: 576px) { .iconSkill  {width: auto; height: auto;}}
