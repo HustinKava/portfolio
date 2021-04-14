@@ -58,44 +58,44 @@ function About () {
 
             <div className='skills'>
                 <div>
-                    <img src="https://i.ibb.co/HNMnVwV/1174949-24.png" alt="react" className='icon'/>
+                    <img src="https://i.ibb.co/HNMnVwV/1174949-24.png" alt="react" className='iconSkill'/>
                     <p className='iconText'>React</p>
                 </div>
                 <div>
-                  <img src="https://i.ibb.co/NttJZWL/iconfinder-187-Js-logo-logos-4373213.png" alt="javascript" className='icon'/>
+                  <img src="https://i.ibb.co/NttJZWL/iconfinder-187-Js-logo-logos-4373213.png" alt="javascript" className='iconSkill'/>
                     <p className='iconText'>JavaScript</p>
                 </div>
-                <div>
+                {/* <div>
                     <img src="https://i.ibb.co/kBhZN3k/iconfinder-badge-html-5-317755.png" alt="html" className='icon'/>
                     <p className='iconText'>HTML</p>
-                </div>
+                </div> */}
                 <div>
-                  <img src="https://i.ibb.co/yPhh2Sq/iconfinder-badge-css-3-317756.png" alt="react" className='icon'/>
+                  <img src="https://i.ibb.co/yPhh2Sq/iconfinder-badge-css-3-317756.png" alt="react" className='iconSkill'/>
                     <p className='iconText'>CSS</p>
                 </div>
                 <div>
-                    <img src="https://i.ibb.co/QvJ4Q6Y/iconfinder-icon.png" alt="nodejs" className='icon'/>
+                    <img src="https://i.ibb.co/QvJ4Q6Y/iconfinder-icon.png" alt="nodejs" className='iconSkill'/>
                     <p className='iconText'>Node.js</p>
                 </div>
                 <div>
-                    <img src="https://i.ibb.co/VxWy2m7/mysql.png" alt="mysql" className='icon'/>
+                    <img src="https://i.ibb.co/VxWy2m7/mysql.png" alt="mysql" className='iconSkill'/>
                     <p className='iconText'>MySQL</p>
                 </div>
                 <div>
-                    <img src="https://i.ibb.co/mvmmCsf/uxwing-svg-icon-editor.png" alt="mongodb" className='icon'/>
+                    <img src="https://i.ibb.co/mvmmCsf/uxwing-svg-icon-editor.png" alt="mongodb" className='iconSkill'/>
                     <p className='iconText'>MongoDB</p>
                 </div>
-                <div>
-                    <img src="https://i.ibb.co/gVZGhj9/6929231-24.png" alt="vscode" className='icon'/>
+                {/* <div>
+                    <img src="https://i.ibb.co/gVZGhj9/6929231-24.png" alt="vscode" className='iconSkill'/>
                     <p className='iconText'>VSCode</p>
-                </div>
+                </div> */}
                 <div>
-                    <img src="https://i.ibb.co/SdzTbPf/icons8-heroku-24.png" alt="heroku" className='icon'/>
+                    <img src="https://i.ibb.co/SdzTbPf/icons8-heroku-24.png" alt="heroku" className='iconSkill'/>
                     <p className='iconText'>Heroku</p>
                 </div>
                 <div>
-                    <img src="https://i.ibb.co/dfLR8Zf/icons8-travis-ci-24.png" alt="travis" className='icon'/>
-                    <p className='iconText'>Travis-CI</p>
+                    <img src="https://i.ibb.co/dfLR8Zf/icons8-travis-ci-24.png" alt="travis" className='iconSkill'/>
+                    <p className='iconText'>Travis CI</p>
                 </div>
             </div>
         </Container>
