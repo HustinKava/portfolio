@@ -33,6 +33,7 @@
     overflow: hidden;
     margin-left: 10px;
     text-align: center;
+    padding-bottom: 5%;
 }
 
 .bio {
@@ -90,24 +91,29 @@ h1 {
 
 /* MEDIA QUERIES */
 /* Extra small devices (Tested with Iphone X) */
-@media (min-width: 360px) { .slide-number, .slide-detail-facts, .descriptionText {text-align: center;}}
+@media (min-width: 360px) { .slide-number, .slide-detail-facts {text-align: center;}}
 @media (min-width: 360px) { .descriptionText {padding-top: 0%; }} 
+@media (min-width: 360px) { h1 {font-size: 28px;}} 
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { .slide-number, .slide-detail-facts, .descriptionText {text-align: left;}}
-@media (min-width: 576px) { .descriptionText {padding-top: 0%; }} 
+@media (min-width: 576px) { .slide-number, .slide-detail-facts {text-align: left;}}
+@media (min-width: 576px) { .descriptionText {padding-top: 0%; }}
+@media (min-width: 576px) { h1 {font-size: 32px;}} 
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { .slide-number, .slide-detail-facts, .descriptionText {text-align: left;}}
+@media (min-width: 768px) { .slide-number, .slide-detail-facts {text-align: left;}}
 @media (min-width: 768px) { .descriptionText {padding-top: 2%; }} 
+@media (min-width: 768px) { h1 {font-size: 32px;}} 
 
 /* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { .slide-number, .slide-detail-facts, .descriptionText {text-align: left;}}
+@media (min-width: 992px) { .slide-number, .slide-detail-facts {text-align: left;}}
 @media (min-width: 992px) { .descriptionText {padding-top: 2%; }} 
+@media (min-width: 992px) { h1 {font-size: 32px;}} 
 
 /* // Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { .slide-number, .slide-detail-facts, .descriptionText {text-align: left;}} 
+@media (min-width: 1200px) { .slide-number, .slide-detail-facts {text-align: left;}} 
 @media (min-width: 1200px) { .descriptionText {padding-top: 2%; }} 
+@media (min-width: 1200px) { h1 {font-size: 32px;}} 
 
 
 

@@ -64,7 +64,7 @@ function Portfolio () {
                         <div className="swiper-slide">
                             <div className="slide-number">
                                 <div>
-                                    <h1>{slide.text}</h1>
+                                    <h1 className='projectTitle'>{slide.text}</h1>
                                 </div>
                             </div>
                             <Grid className='bio' container spacing={2}>
