@@ -47,7 +47,6 @@
 .name {
     color: white;
     display: block;
-    font-size: 60px;
     margin-top: 0px;
     margin-bottom: 0px;
     font-family: Raleway, sans-serif;
@@ -93,9 +92,13 @@ h3 {
     font-family: 'Nunito', sans-serif;
 }
 
+/* font-size: 60px; */
+
+
 /* MEDIA QUERIES */
 /* Extra small devices (Tested with Iphone X, Galaxy S5, Iphone 8) */
 @media (min-width: 360px) { .profile  {width: 55%; height: 65%;}}
+@media (min-width: 360px) { .name  {font-size: 50px;}}
 @media (min-width: 360px) { .name, .FullStack, .text, .contactBox  {text-align: center;}}
 @media (min-width: 360px) { .social  {padding-top: 10%;}}
 @media (min-width: 360px) { .contactBox  {padding-top: 0%; padding-bottom: 5%;}}
@@ -103,7 +106,8 @@ h3 {
 @media (min-width: 360px) { .iconSkill  {width: auto; height: 30%;}}
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { .profile  {width: 55%; height: 65%;}}
+@media (min-width: 576px) { .profile  {width: 80%; height: 65%;}}
+@media (min-width: 576px) { .name  {font-size: 50px;}}
 @media (min-width: 576px) { .name, .FullStack, .text, .contactBox  {text-align: left;}}
 @media (min-width: 576px) { .social  {padding-top: 19%;}}
 @media (min-width: 576px) { .contactBox  {padding-top: 10%; padding-bottom: 0%;}}
@@ -112,6 +116,7 @@ h3 {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { .profile  {width: 65%; height: 65%;}}
+@media (min-width: 768px) { .name  {font-size: 60px;}}
 @media (min-width: 768px) { .name, .FullStack, .text, .contactBox  {text-align: left;}}
 @media (min-width: 768px) { .social  {padding-top: 20%;}}
 @media (min-width: 768px) { .contactBox  {padding-top: 10%; padding-bottom: 0%;}}
@@ -120,6 +125,7 @@ h3 {
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { .profile  {width: 70%; height: 70%;}}
+@media (min-width: 992px) { .name  {font-size: 60px;}}
 @media (min-width: 992px) { .name, .FullStack, .text, .contactBox  {text-align: left;}}
 @media (min-width: 992px) { .social  {padding-top: 10%;}}
 @media (min-width: 992px) { .contactBox  {padding-top: 10%; padding-bottom: 0%;}}
@@ -127,7 +133,8 @@ h3 {
 @media (min-width: 992px) { .iconSkill  {width: auto; height: auto;}}
 
 /* // Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { .profile  {width: 70%; height: 70%;}} 
+@media (min-width: 1200px) { .profile  {width: 70%; height: 70%;}}
+@media (min-width: 1200px) { .name  {font-size: 60px;}}
 @media (min-width: 1200px) { .name, .FullStack, .text, .contactBox  {text-align: left;}}
 @media (min-width: 1200px) { .social  {padding-top: 18%;}}
 @media (min-width: 1200px) { .contactBox  {padding-top: 5%; padding-bottom: 0%;}}
