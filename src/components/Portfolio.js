@@ -17,7 +17,7 @@ function Portfolio () {
                 spaceBetween={50}
                 slidesPerView={1}
                 mousewheel={true}
-                // autoplay={{ loop: true, autoplay: true }}
+                autoplay={{ loop: true, autoplay: true }}
                 pagination={{ clickable: true }}
                 onSlideChange={() => 
                     {
