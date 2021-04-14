@@ -14,10 +14,10 @@ function About () {
                     <h3>Hi, I'm</h3>
                     <h2 className='name'>Hustin Kava</h2>
                     <h3 className='FullStack'><img src="https://i.ibb.co/ZWZzj8S/iconfinder-Arrow-doodle-16-3847918.png" alt="arrow"/>Full-Stack Developer</h3>
-                    <p>
+                    <p className='text'>
                     With a passion to code and a desire to learn, I am highly ambitious and ready to make an impact on dynamic and innovative projects. Aside from coding and being exceedingly technology-driven, my passions branch out into various areas, such as cars, travelling, and indulging in culinary delights. 
                     </p>
-                    <p>
+                    <p className='text'>
                     Want to know more? Well, what are you waiting for? I am only a click away from sharing my vision of the world with you. Are you ready for me? I am definitely ready for you!
                     </p>
 
@@ -59,43 +59,43 @@ function About () {
             <div className='skills'>
                 <div>
                     <img src="https://i.ibb.co/HNMnVwV/1174949-24.png" alt="react" className='icon'/>
-                    <p className='text'>React</p>
+                    <p className='iconText'>React</p>
                 </div>
                 <div>
                   <img src="https://i.ibb.co/NttJZWL/iconfinder-187-Js-logo-logos-4373213.png" alt="javascript" className='icon'/>
-                    <p className='text'>JavaScript</p>
+                    <p className='iconText'>JavaScript</p>
                 </div>
                 <div>
                     <img src="https://i.ibb.co/kBhZN3k/iconfinder-badge-html-5-317755.png" alt="html" className='icon'/>
-                    <p className='text'>HTML</p>
+                    <p className='iconText'>HTML</p>
                 </div>
                 <div>
                   <img src="https://i.ibb.co/yPhh2Sq/iconfinder-badge-css-3-317756.png" alt="react" className='icon'/>
-                    <p className='text'>CSS</p>
+                    <p className='iconText'>CSS</p>
                 </div>
                 <div>
                     <img src="https://i.ibb.co/QvJ4Q6Y/iconfinder-icon.png" alt="nodejs" className='icon'/>
-                    <p className='text'>Node.js</p>
+                    <p className='iconText'>Node.js</p>
                 </div>
                 <div>
                     <img src="https://i.ibb.co/VxWy2m7/mysql.png" alt="mysql" className='icon'/>
-                    <p className='text'>MySQL</p>
+                    <p className='iconText'>MySQL</p>
                 </div>
                 <div>
                     <img src="https://i.ibb.co/mvmmCsf/uxwing-svg-icon-editor.png" alt="mongodb" className='icon'/>
-                    <p className='text'>MongoDB</p>
+                    <p className='iconText'>MongoDB</p>
                 </div>
                 <div>
                     <img src="https://i.ibb.co/gVZGhj9/6929231-24.png" alt="vscode" className='icon'/>
-                    <p className='text'>VSCode</p>
+                    <p className='iconText'>VSCode</p>
                 </div>
                 <div>
                     <img src="https://i.ibb.co/SdzTbPf/icons8-heroku-24.png" alt="heroku" className='icon'/>
-                    <p className='text'>Heroku</p>
+                    <p className='iconText'>Heroku</p>
                 </div>
                 <div>
                     <img src="https://i.ibb.co/dfLR8Zf/icons8-travis-ci-24.png" alt="travis" className='icon'/>
-                    <p className='text'>Travis-CI</p>
+                    <p className='iconText'>Travis-CI</p>
                 </div>
             </div>
         </Container>

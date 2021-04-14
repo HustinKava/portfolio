@@ -1,14 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
 
 .profile {
-    height: 75%;
-    width: 75%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-
-
 
 .bio {
     padding-bottom: 20px;
@@ -20,7 +17,6 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    padding-top: 10%;
 }
 
 .socialLinks {
@@ -46,10 +42,6 @@
 
 .icon {
     font-size: 26px;
-}
-
-.text {
-    font-size: 13px;
 }
 
 .name {
@@ -78,6 +70,8 @@ h3 {
 
 .FullStack {
     padding-bottom: 5%;
+    font-style: italic;
+    font-weight: 600;
 }
 
 .contact {
@@ -86,6 +80,47 @@ h3 {
     font-weight: 400;
 }
 
-.contactBox {
-    padding-top: 10%;
+.iconText {
+    font-size: 13px;
 }
+
+.text {
+    font-family: 'Nunito', sans-serif;
+}
+
+/* MEDIA QUERIES */
+/* Extra small devices (Tested with Iphone X) */
+@media (min-width: 375px) { .profile  {width: 55%; height: 65%;}}
+@media (min-width: 375px) { .name, .FullStack, .text, .contactBox  {text-align: center;}}
+@media (min-width: 375px) { .social  {padding-top: 10%;}}
+@media (min-width: 375px) { .contactBox  {padding-top: 0%; padding-bottom: 5%;}}
+@media (min-width: 375px) { .iconText  {font-size: 10px;}}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { .profile  {width: 55%; height: 65%;}}
+@media (min-width: 576px) { .name, .FullStack, .text, .contactBox  {text-align: left;}}
+@media (min-width: 576px) { .social  {padding-top: 19%;}}
+@media (min-width: 576px) { .contactBox  {padding-top: 10%; padding-bottom: 0%;}}
+@media (min-width: 576px) { .iconText  {font-size: 13px;}}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { .profile  {width: 65%; height: 65%;}}
+@media (min-width: 768px) { .name, .FullStack, .text, .contactBox  {text-align: left;}}
+@media (min-width: 768px) { .social  {padding-top: 20%;}}
+@media (min-width: 768px) { .contactBox  {padding-top: 10%; padding-bottom: 0%;}}
+@media (min-width: 768px) { .iconText  {font-size: 13px;}}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { .profile  {width: 70%; height: 70%;}}
+@media (min-width: 992px) { .name, .FullStack, .text, .contactBox  {text-align: left;}}
+@media (min-width: 992px) { .social  {padding-top: 10%;}}
+@media (min-width: 992px) { .contactBox  {padding-top: 10%; padding-bottom: 0%;}}
+@media (min-width: 992px) { .iconText  {font-size: 13px;}}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { .profile  {width: 70%; height: 70%;}} 
+@media (min-width: 1200px) { .name, .FullStack, .text, .contactBox  {text-align: left;}}
+@media (min-width: 1200px) { .social  {padding-top: 14%;}}
+@media (min-width: 1200px) { .contactBox  {padding-top: 5%; padding-bottom: 0%;}}
+@media (min-width: 1200px) { .iconText  {font-size: 13px;}}
+

@@ -15,5 +15,14 @@
 }
 
 .MuiTabs-flexContainer {
-    padding-bottom: 10px !important;
+    padding-bottom: 20px !important;
+}
+
+.MuiTab-wrapper {
+    padding-top: 20px;
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }

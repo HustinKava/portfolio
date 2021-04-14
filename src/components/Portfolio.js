@@ -23,9 +23,6 @@ function Portfolio () {
                     {
                     TweenMax.to(".slide-number div", 0.5,{ x: '-1000px'})
                     TweenMax.to(".slide-detail div", 0.5, { x: "-1000px"})
-
-                    TweenMax.to(".slide-detail-tech div", 0.5, { x: "-1000"})                        
-
                     TweenMax.to(".slide-detail-facts div", 0.5, { x: "-1000px"})
                     TweenMax.to(".swiper-slide-active", 0.5, { scale: 0.85})
                     }}
@@ -43,9 +40,6 @@ function Portfolio () {
                     TweenMax.to(".swiper-slide .slide-img", 1, { rotation: 0})                        
                     TweenMax.to(".slide-number div", 0.3, { x: 0})
                     TweenMax.to(".slide-detail div", 0.4, { x: 0})
-
-                    TweenMax.to(".slide-detail-tech div", 0.5, { x: 0})                        
-
                     TweenMax.to(".slide-detail-facts div", 0.6, { x: 0})                        
                     TweenMax.to(".swiper-slide-active", 0.5, { scale: 1, ease: Power4.easeOut})
                     TweenMax.to(".swiper-slide-active .slide-number", 0, { autoAlpha: 1})
@@ -58,9 +52,6 @@ function Portfolio () {
                     TweenMax.to(".swiper-slide .slide-img", 1, { rotation: 0})
                     TweenMax.to(".slide-number div", 0.3, { x: 0})
                     TweenMax.to(".slide-detail div", 0.4, { x: 0})
-
-                    TweenMax.to(".slide-detail-tech div", 0.5, { x: 0})                        
-
                     TweenMax.to(".slide-detail-facts div", 0.6, { x: 0})                        
                     TweenMax.to(".swiper-slide-active", 0.5, { scale: 1, ease: Power4.easeOut})
                     TweenMax.to(".swiper-slide-active .slide-number", 0, { autoAlpha: 1})
@@ -79,7 +70,7 @@ function Portfolio () {
                             <Grid className='bio' container spacing={2}>
                                 <Grid item xs={12} sm={5}>
                                     <div className="slide-img">
-                                    <img src={slide.src} alt={slide.text} style={{width: '100%'}}/>
+                                    <img className='profileImage' src={slide.src} alt={slide.text} style={{width: '100%'}}/>
                                     
 
                                     <div className='sliderButtons'>
@@ -96,30 +87,24 @@ function Portfolio () {
                                     </div>
                                     </div>
                                 </Grid>
+
                                 <Grid item xs={12} sm={7}>
                                     <div className="slide-detail">
-                                    <div><p><span>
+                                    <div><p className='descriptionText'>
                                         {slide.description}
-                                    </span></p></div>
+                                    </p></div>
                                     </div>
-
-                                    <div className="slide-detail-tech">
-                                        <div>
-                                            <h3>Technology:</h3>
-                                        </div>
-                                    </div>
-
                                     <div className="slide-detail-facts">
                                         <div>
+                                        <h3 className='technologies'>Technologies: </h3>
                                         { Array.isArray(slide.icons) && slide.icons.map(url => {
                                             return (
-                                                <img key={url} src={url}  alt='Icon'/>
-                                            );
-                                        })}
+                                                <img className='techImg' key={url} src={url}  alt='Icon'/>
+                                            );})}
                                         </div>
                                     </div>
-
                                 </Grid>
+                                
                             </Grid>
                         </div>
                     </SwiperSlide>

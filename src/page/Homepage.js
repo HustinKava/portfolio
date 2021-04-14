@@ -13,7 +13,7 @@ function Homepage () {
         <div>
             <Navbar/>
             <div className='App' style={{position:'relative'}}>
-            <div className='particlesDiv' style={{ position: 'absolute', zIndex: '-1' }}>
+            <div className='particlesDiv' style={{ position: 'fixed', zIndex: '-1' }}>
             <Particles className='particles' params={particleConfig} />
             </div>
             <div id='About' className='space About'/>

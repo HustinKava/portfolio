@@ -1,6 +1,8 @@
 import React from "react";
+import emailjs from 'emailjs-com';
 import { FormControl, Button, TextField, Container } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
+import './Contact.css';
 
 const useStyles = makeStyles({
     root: {
@@ -38,18 +40,42 @@ function Contact () {
 
     const classes = useStyles();
 
+    function sendEmail(e) {
+      e.preventDefault();
+  
+      emailjs.sendForm('service_0ild9a3', 'template_g87tkuh', e.target, 'user_hmdhXn2wu53yfNaHPlE1e')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+        e.target.reset();
+    }
+
     return (
         <Container className='container' maxWidth="md">
-            <h1>Contact Form</h1>   
+            <h1 className='contactTitle'>Contact Form</h1>   
                     <div
                         style={{
                         display: "flex",
                         justifyContent: "center",
                         margin: 20,
-                        padding: 20
+                        paddingBottom: 20,
                         }}
                     >
-                    <form style={{ width: "50%" }}>
+                    <form onSubmit={sendEmail} className='formSize'>
+
+                    <FormControl margin="normal" fullWidth>
+                        <TextField
+                        className={classes.root}
+                        required
+                        id="outlined-required"
+                        label="Subject"
+                        variant="outlined"
+                        placeholder='Subject'
+                        name='subject'
+                        />
+                    </FormControl>
 
                     <FormControl margin="normal" fullWidth>
                         <TextField
@@ -59,10 +85,11 @@ function Contact () {
                         label="Name"
                         variant="outlined"
                         placeholder='Name'
+                        name='name'
                         />
                     </FormControl>
 
-                    <FormControl margin="normal" fullWidth>
+                    <FormControl className='formSize' margin="normal" fullWidth>
                         <TextField
                         className={classes.root}
                         required
@@ -70,10 +97,11 @@ function Contact () {
                         label="Email"
                         variant="outlined"
                         placeholder='Email'
+                        name='email'
                         />
                     </FormControl>
 
-                    <FormControl margin="normal" fullWidth>
+                    <FormControl className='formSize' margin="normal" fullWidth>
                         <TextField
                         className={classes.root}
                         required
@@ -83,19 +111,17 @@ function Contact () {
                         rows={4}
                         placeholder='Message'
                         variant="outlined"
+                        name='message'
                         />
                     </FormControl>
 
-                    <Button variant="outlined" color="primary" size='medium'>
+                    <Button type='submit' className='formButton' variant="outlined" color="primary" size='medium'>
                         Send
                     </Button>
                     </form>
                     </div>
-
-
       </Container>
     );
-  
-}
+  }
 
 export default Contact;
