@@ -17,7 +17,7 @@ This website was created to showcase what I have learned so far. This page will 
 For this application I used the following technologies: React, JavaScript, HTML/CSS, Material Ui, Swiper, Gsap, Particles.js, EmailJS and GitHub Pages.
 
 ## Screenshot
-![](public/images/Screenshot.PNG)
+![](public/images/Screenshot1.PNG)
 
 
 ## View Live Website  
