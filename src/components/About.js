@@ -68,7 +68,7 @@ function About () {
                 
 
             <div className='skillTitle'></div>
-
+                <h3 className='techSkills'>Technical Skills:</h3>
             <div className='skills'>
                 <div>
                     <img src="https://i.ibb.co/HNMnVwV/1174949-24.png" alt="react" className='iconSkill'/>
