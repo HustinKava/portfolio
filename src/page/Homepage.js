@@ -1,7 +1,8 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import About from '../components/About';
-import Portfolio from '../components/Portfolio';
+import Projects from '../components/Projects';
+// import Portfolio from '../components/Portfolio';
 import Contact from '../components/Contact';
 import Particles from 'react-particles-js';
 import particleConfig from '../components/configParticles';
@@ -18,8 +19,10 @@ function Homepage () {
             </div>
             <div id='About' className='space'/>
             <About/>
-            <div id='Portfolio' className='space'/>
-            <Portfolio/>
+            <div id='Projects' className='space'/>
+            <Projects/>
+            {/* <div id='Portfolio' className='space'/>
+            <Portfolio/> */}
             <div id='Contact' className='space'/>
             <Contact/>
             <div className='space'/>
