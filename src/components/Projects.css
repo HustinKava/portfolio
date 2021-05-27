@@ -1,0 +1,63 @@
+.bio {
+    padding-bottom: 3%;
+}
+
+.links {
+    text-align: center;
+    padding-top: 3%;
+}
+
+.divider{
+    width:2%;
+    height:auto;
+    display:inline-block;
+}
+
+/* .descriptionDiv {
+    z-index: 10;
+    overflow: hidden;
+    font-size: 14px;
+    margin-left: 10px;
+} */
+
+.descriptionText {
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* .icons {
+    padding-top: 5%;
+    position: relative;
+    overflow: hidden;
+    margin-left: 10px;
+    text-align: center;
+    padding-bottom: 5%;
+} */
+
+.technologies {
+    display: inline;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.techImg {
+    margin-bottom: -1%;
+    padding-right: 2px;
+}
+
+.MuiButton-outlinedPrimary {
+    color: white !important;
+    border: 1px solid rgb(255 255 255 / 50%) !important;
+}
+
+.projectImage {
+    padding-top: 30px;
+}
+
+.titlePadding {
+    padding-bottom: 10px;
+}
+
+.descriptionDiv {
+    padding-bottom: 55px;
+}
