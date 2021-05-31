@@ -11,6 +11,10 @@ function Projects () {
             {/* PROJECT 1 */}
             <Container className='container' maxWidth="md">
 
+                <div>
+                    <h4>{Data[0].text}</h4>
+                </div>
+
                 <Grid className='bio' container spacing={2}>
                     <Grid item xs={12} sm={5}>
                         <img className='projectImage' src={Data[0].src} alt={Data[0].text} style={{width: '100%'}}/>
@@ -32,10 +36,6 @@ function Projects () {
                     </Grid>
 
                     <Grid item xs={12} sm={7}>
-
-                        <div className='titlePadding'>
-                            <h1>{Data[0].text}</h1>
-                        </div>
 
                         <div className="descriptionDiv">
                             <div><p className='descriptionText'>
@@ -63,32 +63,11 @@ function Projects () {
             {/* PROJECT 2 */}
             <Container className='container' maxWidth="md">
 
+                <div>
+                    <h4>{Data[1].text}</h4>
+                </div>
+
                 <Grid className='bio' container spacing={2}>
-                    
-                    <Grid item xs={12} sm={7}>
-
-                    <div  className='titlePadding'>
-                        <h1 className='projectTitle'>{Data[1].text}</h1>
-                    </div>
-
-                    <div className="descriptionDiv">
-                        <div><p className='descriptionText'>
-                            {Data[1].description}
-                        </p></div>
-                    </div>
-
-                    <div className="icons">
-                        <div>
-                        <h3 className='technologies'>Technology: </h3>
-                        { Array.isArray(Data[1].icons) && Data[1].icons.map(url => {
-                            return (
-                                <img className='techImg' key={url} src={url}  alt='Icon'/>
-                        );})}
-                        </div>
-                    </div>
-
-                    </Grid>
-
                     <Grid item xs={12} sm={5}>
                         <img className='projectImage' src={Data[1].src} alt={Data[1].text} style={{width: '100%'}}/>
 
@@ -108,6 +87,26 @@ function Projects () {
 
                     </Grid>
 
+                    <Grid item xs={12} sm={7}>
+
+                        <div className="descriptionDiv">
+                            <div><p className='descriptionText'>
+                                {Data[1].description}
+                            </p></div>
+                        </div>
+
+                        <div className="icons">
+                            <div>
+                            <h3 className='technologies'>Technology: </h3>
+                            { Array.isArray(Data[1].icons) && Data[1].icons.map(url => {
+                                return (
+                                    <img className='techImg' key={url} src={url}  alt='Icon'/>
+                            );})}
+                            </div>
+                        </div>
+
+                    </Grid>
+
                 </Grid>
             </Container>
 
@@ -115,6 +114,10 @@ function Projects () {
 
             {/* PROJECT 3 */}
             <Container className='container' maxWidth="md">
+
+                <div>
+                    <h4>{Data[2].text}</h4>
+                </div>
 
                 <Grid className='bio' container spacing={2}>
                     <Grid item xs={12} sm={5}>
@@ -138,10 +141,6 @@ function Projects () {
 
                     <Grid item xs={12} sm={7}>
 
-                        <div  className='titlePadding'>
-                            <h1 className='projectTitle'>{Data[2].text}</h1>
-                        </div>
-
                         <div className="descriptionDiv">
                             <div><p className='descriptionText'>
                                 {Data[2].description}
@@ -161,39 +160,18 @@ function Projects () {
                     </Grid>
 
                 </Grid>
-                </Container>
+            </Container>
 
                 <div className='space'/>
 
             {/* PROJECT 4 */}
             <Container className='container' maxWidth="md">
 
+                <div>
+                    <h4>{Data[10].text}</h4>
+                </div>
+
                 <Grid className='bio' container spacing={2}>
-                    
-                    <Grid item xs={12} sm={7}>
-
-                    <div  className='titlePadding'>
-                        <h1 className='projectTitle'>{Data[10].text}</h1>
-                    </div>
-
-                    <div className="descriptionDiv">
-                        <div><p className='descriptionText'>
-                            {Data[10].description}
-                        </p></div>
-                    </div>
-
-                    <div className="icons">
-                        <div>
-                        <h3 className='technologies'>Technology: </h3>
-                        { Array.isArray(Data[10].icons) && Data[10].icons.map(url => {
-                            return (
-                                <img className='techImg' key={url} src={url}  alt='Icon'/>
-                        );})}
-                        </div>
-                    </div>
-
-                    </Grid>
-
                     <Grid item xs={12} sm={5}>
                         <img className='projectImage' src={Data[10].src} alt={Data[10].text} style={{width: '100%'}}/>
 
@@ -213,8 +191,28 @@ function Projects () {
 
                     </Grid>
 
+                    <Grid item xs={12} sm={7}>
+
+                        <div className="descriptionDiv">
+                            <div><p className='descriptionText'>
+                                {Data[10].description}
+                            </p></div>
+                        </div>
+
+                        <div className="icons">
+                            <div>
+                            <h3 className='technologies'>Technology: </h3>
+                            { Array.isArray(Data[10].icons) && Data[10].icons.map(url => {
+                                return (
+                                    <img className='techImg' key={url} src={url}  alt='Icon'/>
+                            );})}
+                            </div>
+                        </div>
+
+                    </Grid>
+
                 </Grid>
-                </Container>
+            </Container>
 
         </div>
 
