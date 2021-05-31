@@ -32,7 +32,8 @@ function Navbar () {
                 centered
             >
               <Tab label="About" href='#About'/>
-              <Tab label="Portfolio" href='#Portfolio' />
+              <Tab label="Projects" href='#Projects' />
+              {/* <Tab label="Portfolio" href='#Portfolio' /> */}
               <Tab label="Contact" href='#Contact'/>
             </Tabs>
           </Grid>
