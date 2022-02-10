@@ -1,6 +1,5 @@
 import React from 'react';
 import { Container, Grid, } from '@material-ui/core';
-import './About.css';
 import ProfilePic from '../images/ProfilePic.png';
 import Resume from '../resume/Resume.pdf';
 

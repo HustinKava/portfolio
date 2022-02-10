@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Tabs, Tab, Grid } from '@material-ui/core';
-import './Navbar.css';
 
 function Navbar () {
 
