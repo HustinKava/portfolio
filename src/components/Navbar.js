@@ -12,7 +12,7 @@ function Navbar () {
    
     return (
         <div style={{position: "sticky", top:"0", width:"100%", zIndex: '100', borderBottom: 'solid 5px white', backgroundColor: '#71afed'}}>
-        <Grid justify={"space-between"} container>
+        <Grid justifyContent='space-between' container>
         <Grid xs={1} item>
           <img
             src={
@@ -23,7 +23,7 @@ function Navbar () {
           />
         </Grid>
         <Grid xs={12} item>
-          <Grid container justify={"center"}>
+          <Grid container justifyContent={"center"}>
             <Tabs
                 onChange={handleTabs}
                 value={value}

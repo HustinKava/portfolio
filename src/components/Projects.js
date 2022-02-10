@@ -6,6 +6,33 @@ import './Projects.css';
 
 function Projects () {
 
+    const Gif = (e) => {
+        // console.log("this is the target: ",e.target.dataset.id);
+        
+        for (let i =0; i < Data2.length; i++) {
+            // console.log(Data2[i].dataId)   
+            if (e.target.dataset.id === Data2[i].dataId) {
+                console.log(e.target)
+                console.log(Data[0].src)
+                e.target.src = Data[0].src            
+            }
+        }
+    }
+
+    const Image = (e) => {
+        console.log("exit");
+        console.log("exit target: ", e.target)
+
+        for (let i =0; i < Data2.length; i++) {
+            // console.log(Data2[i].dataId)   
+            if (e.target.dataset.id === Data2[i].dataId) {
+                console.log(e.target)
+                console.log(Data[0].src)
+                e.target.src = Data2[i].src            
+            }
+        }
+    }
+
     return (
         <div>
 
@@ -18,7 +45,7 @@ function Projects () {
 
                         <Grid className='bio' container spacing={2}>
                             <Grid item xs={12} sm={5}>
-                                <img className='projectImage' src={data.src} alt={data.text} style={{width: '100%'}}/>
+                                <img data-id={index + 1} className='projectImage' src={data.src} alt={data.text} style={{width: '100%'}} onMouseEnter={Gif} onMouseLeave={Image}/>
                                 <div className='links'>                                
                                     <Button variant="outlined" color="primary" href={data.repoLink} target="_blank" rel="noopener noreferrer">
                                         {data.bOne}
