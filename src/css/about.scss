@@ -2,12 +2,6 @@
     @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800;900&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
     
-    .profile {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
     .bio {
         padding-bottom: 20px;
     }
@@ -74,6 +68,7 @@
     
     .text {
         font-family: 'Nunito', sans-serif;
+        font-size: 18px;
     }
     .skillTitle {
         padding-bottom: 2px;
@@ -83,55 +78,114 @@
         text-align: center;
         padding-bottom: 20px;
     }
-    
+
     /* MEDIA QUERIES */
     /* Extra small devices (Tested with Iphone X, Galaxy S5, Iphone 8) */
-    @media (min-width: 360px) { .profile  {width: 60%; height: 100%; margin-top: 10px;}}
-    @media (min-width: 360px) { .name  {font-size: 50px;}}
-    @media (min-width: 360px) { .name, .FullStack, .text, .contactBox  {text-align: center;}}
-    @media (min-width: 360px) { .contactBox  {margin-bottom: 10%;}}
-    @media (min-width: 360px) { .iconText  {font-size: 10px;}}
-    @media (min-width: 360px) { .iconSkill  {width: auto; height: 30%;}}
-    @media (min-width: 360px) { .bioText  { margin-top: 0px;}}
-    @media (min-width: 360px) { .skillTitle  { border-top: solid 1px white; }}
-    
-    /* Small devices (landscape phones, 576px and up) */
-    @media (min-width: 576px) { .profile  {width: 90%; height: 85%; margin-top: 50px;}}
-    @media (min-width: 576px) { .name  {font-size: 50px;}}
-    @media (min-width: 576px) { .name, .FullStack, .text, .contactBox  {text-align: left;}}
-    @media (min-width: 576px) { .contactBox  {margin-bottom: 0;}}
-    @media (min-width: 576px) { .iconText  {font-size: 13px;}}
-    @media (min-width: 576px) { .iconSkill  {width: auto; height: auto;}}
-    @media (min-width: 576px) { .bioText  { margin-top: -220px;}}
-    @media (min-width: 576px) { .skillTitle  { border-top: solid 3px white; }}
-    
-    /* Medium devices (tablets, 768px and up) */
-    @media (min-width: 768px) { .profile  {width: 70%; height: 85%; margin-top: 50px;}}
-    @media (min-width: 768px) { .name  {font-size: 60px;}}
-    @media (min-width: 768px) { .name, .FullStack, .text, .contactBox  {text-align: left;}}
-    @media (min-width: 768px) { .contactBox  {margin-bottom: 0;}}
-    @media (min-width: 768px) { .iconText  {font-size: 13px;}}
-    @media (min-width: 768px) { .iconSkill  {width: auto; height: auto;}}
-    @media (min-width: 768px) { .bioText  { margin-top: -170px;}}
-    @media (min-width: 768px) { .skillTitle  { border-top: solid 3px white; }}
-    
-    /* // Large devices (desktops, 992px and up) */
-    @media (min-width: 992px) { .profile  {width: 70%; height: 85%; margin-top: 50px;}}
-    @media (min-width: 992px) { .name  {font-size: 60px;}}
-    @media (min-width: 992px) { .name, .FullStack, .text, .contactBox  {text-align: left;}}
-    @media (min-width: 992px) { .contactBox  {margin-bottom: 0;}}
-    @media (min-width: 992px) { .iconText  {font-size: 13px;}}
-    @media (min-width: 992px) { .iconSkill  {width: auto; height: auto;}}
-    @media (min-width: 992px) { .bioText  { margin-top: -210px;}}
-    @media (min-width: 992px) { .skillTitle  { border-top: solid 3px white; }}
-    
+    @media (min-width: 360px) { 
+        .profile  {
+            width: 60%; 
+            height: 100%; 
+            margin-top: 10px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .text {font-size: unset;}   
+        .name, .FullStack, .text, .contactBox  {text-align: center;}  
+        .name  {font-size: 50px;}   
+        .contactBox  {margin-bottom: 10%;}
+        .iconText  {font-size: 10px;}
+        .iconSkill  {width: auto; height: 30%;}
+        .skillTitle  {border-top: solid 1px white;}
+    }
+
+    // /* Small devices (landscape phones, 576px and up) */
+    @media (min-width: 576px) { 
+        .profile  {
+            width: 90%; 
+            height: 85%; 
+            margin-top: 50px; 
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .text {font-size: unset;}
+        .name  {font-size: 50px;}
+        .name, .FullStack, .text, .contactBox  {text-align: left;}
+        .contactBox  {margin-bottom: 0;}
+        .iconText  {font-size: 13px;}
+        .iconSkill  {width: auto; height: auto;}
+        .skillTitle  { border-top: solid 3px white; }
+    } 
+
+    // /* Medium devices (tablets, 768px and up) */
+    @media (min-width: 768px) {
+        .profile  {
+            width: 75%; 
+            height: 85%; 
+            margin-top: 150px; 
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .text {font-size: unset;}
+        .name  {font-size: 60px;}
+        .name, .FullStack, .text, .contactBox  {text-align: left;}
+        .contactBox  {margin-bottom: 0;}
+        .iconText  {font-size: 13px;}
+        .iconSkill  {width: auto; height: auto;}
+        .bioText  { margin-top: -260px;}
+        .skillTitle  {border-top: solid 3px white;}
+    }
+
+    // /* // Large devices (desktops, 992px and up) */
+    @media (min-width: 992px) { 
+        .profile  {
+            width: 70%; 
+            height: 85%; 
+            margin-top: 80px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .text {font-size: 18px;}
+        .name  {font-size: 60px;}
+        .name, .FullStack, .text, .contactBox  {text-align: left;}
+        .contactBox  {margin-bottom: 0;}
+        .iconText  {font-size: 13px;}
+        .iconSkill  {width: auto; height: auto;}
+        .bioText  { margin-top: -260px;}
+        .skillTitle  {border-top: solid 3px white;}
+    }
+
     /* // Extra large devices (large desktops, 1200px and up) */
-    @media (min-width: 1200px) { .profile  {width: 70%; height: 90%; margin-top: 20px;}}
-    @media (min-width: 1200px) { .name  {font-size: 60px;}}
-    @media (min-width: 1200px) { .name, .FullStack, .text, .contactBox  {text-align: left;}}
-    @media (min-width: 1200px) { .contactBox  {margin-bottom: 0;}}
-    @media (min-width: 1200px) { .iconText  {font-size: 13px;}}
-    @media (min-width: 1200px) { .iconSkill  {width: auto; height: auto;}}
-    @media (min-width: 1200px) { .bioText  { margin-top: -210px;}}
-    @media (min-width: 1200px) { .skillTitle  { border-top: solid 3px white; }}        
+    // @media (min-width: 1200px) { .profile  {width: 70%; height: 90%; margin-top: 20px;}}
+    @media (min-width: 1200px) { 
+        .profile-image-container {
+            position: relative;
+            height: auto;
+
+            .profile  {
+                width: 75%;
+                height: auto;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                margin-top: 250px;
+            }
+        }
+
+        .text {font-size: 18px;}
+        .bioText {margin-top: 0;}
+        .name  {font-size: 60px;}
+        .name, .FullStack, .text, .contactBox  {text-align: left;}
+        .contactBox  {margin-bottom: 0;}
+        .iconText  {font-size: 13px;}
+        .iconSkill  {width: auto; height: auto;}
+        .skillTitle  {border-top: solid 3px white;}
+    }       
 }

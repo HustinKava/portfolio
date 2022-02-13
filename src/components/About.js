@@ -16,7 +16,11 @@ function About () {
                     <h3 className='FullStack'><img src="https://i.ibb.co/ZWZzj8S/iconfinder-Arrow-doodle-16-3847918.png" alt="arrow"/>Full-Stack Developer</h3>
                     </Grid>
                     <Grid item xs={12} sm={6} md={6} lg={6}>
-                    <img className='profile' src={ProfilePic} alt='Profile'/>
+                        
+                        <div className='profile-image-container'>
+                            <img className='profile' src={ProfilePic} alt='Profile'/>
+                        </div>
+
                     </Grid>
                 </Grid>
                 
