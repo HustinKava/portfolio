@@ -1,6 +1,78 @@
-[   
+[ 
     {
         "dataId": "1",
+        "webHref": "https://content-solutions.s3.ca-central-1.amazonaws.com/courseware/showcase/k8-interactives/lessons/flashcards.html",
+        "src": "https://i.ibb.co/8chwWY7/Emp-Tracker.png",
+        "text": "Flashcards ILO",
+        "description": "The Employee Tracker system is a must have for any organization to keep track of their staff, departments, managers, allocated budgets and employee salaries. This is a full CRUD application. Meaning, employers are able to Create, Read, Update and Delete entries that are saved into the database.",
+        "repoLink": "https://gitlab.tvo.org/digital-learning/interactives/flashcards",
+        "bOne": "Repo",
+        "bTwo": "Site",
+        "icons": [
+            {
+                "image": "https://i.ibb.co/NttJZWL/iconfinder-187-Js-logo-logos-4373213.png", 
+                "title": "JavaScript"
+            },
+            {
+                "image": "https://i.ibb.co/QvJ4Q6Y/iconfinder-icon.png",
+                "title": "Node JS"
+            },
+            {
+                "image": "https://i.ibb.co/VxWy2m7/mysql.png",
+                "title": "MySQL"
+            }                                    
+        ]
+    },
+    {
+        "dataId": "2",
+        "webHref": "https://content-solutions.s3.ca-central-1.amazonaws.com/courseware/showcase/k8-interactives/lessons/flowchart.html",
+        "src": "https://i.ibb.co/8chwWY7/Emp-Tracker.png",
+        "text": "Flowchart ILO",
+        "description": "The Employee Tracker system is a must have for any organization to keep track of their staff, departments, managers, allocated budgets and employee salaries. This is a full CRUD application. Meaning, employers are able to Create, Read, Update and Delete entries that are saved into the database.",
+        "repoLink": "https://gitlab.tvo.org/digital-learning/interactives/flowchart/",
+        "bOne": "Repo",
+        "bTwo": "Site",
+        "icons": [
+            {
+                "image": "https://i.ibb.co/NttJZWL/iconfinder-187-Js-logo-logos-4373213.png", 
+                "title": "JavaScript"
+            },
+            {
+                "image": "https://i.ibb.co/QvJ4Q6Y/iconfinder-icon.png",
+                "title": "Node JS"
+            },
+            {
+                "image": "https://i.ibb.co/VxWy2m7/mysql.png",
+                "title": "MySQL"
+            }                                    
+        ]
+    },
+    {
+        "dataId": "3",
+        "webHref": "https://galaxyprotocol.io/",
+        "src": "https://i.ibb.co/8chwWY7/Emp-Tracker.png",
+        "text": "Galaaxy Protocol",
+        "description": "The Employee Tracker system is a must have for any organization to keep track of their staff, departments, managers, allocated budgets and employee salaries. This is a full CRUD application. Meaning, employers are able to Create, Read, Update and Delete entries that are saved into the database.",
+        "repoLink": "https://github.com/HustinKava/GalaxyProtocol",
+        "bOne": "Repo",
+        "bTwo": "Site",
+        "icons": [
+            {
+                "image": "https://i.ibb.co/NttJZWL/iconfinder-187-Js-logo-logos-4373213.png", 
+                "title": "JavaScript"
+            },
+            {
+                "image": "https://i.ibb.co/QvJ4Q6Y/iconfinder-icon.png",
+                "title": "Node JS"
+            },
+            {
+                "image": "https://i.ibb.co/VxWy2m7/mysql.png",
+                "title": "MySQL"
+            }                                    
+        ]
+    },  
+    {
+        "dataId": "4",
         "webHref": "https://guarded-dusk-24354.herokuapp.com/",
         "src": "https://i.ibb.co/6tX1THB/Mind-Share.png",
         "text": "MindShare",
@@ -40,7 +112,7 @@
         ]
     },
     {
-        "dataId": "2",
+        "dataId": "5",
         "webHref": "https://secret-savannah-64299.herokuapp.com/",
         "src": "https://i.ibb.co/X5pRCNc/google.png",
         "text": "Google Book Search",
@@ -80,7 +152,7 @@
         ]
     },
     {
-        "dataId": "3",
+        "dataId": "6",
         "webHref": "https://stormy-springs-60842.herokuapp.com/",
         "src": "https://i.ibb.co/mXsrzYx/Travel-Planner.png",
         "text": "Let's Go Travel Planner",
@@ -116,7 +188,7 @@
         ]
     },  
     {
-        "dataId": "4",
+        "dataId": "7",
         "webHref": "https://youtu.be/VeKhEJunMI0",
         "src": "https://i.ibb.co/df50hDz/ReadMe.png",
         "text": "Readme Generator",
@@ -136,7 +208,7 @@
         ]
     },
     {
-        "dataId": "5",
+        "dataId": "8",
         "webHref": "https://www.youtube.com/watch?v=g9tlIpv78nc&feature=youtu.be",
         "src": "https://i.ibb.co/8chwWY7/Emp-Tracker.png",
         "text": "Employee Tracker",
@@ -158,69 +230,5 @@
                 "title": "MySQL"
             }                                    
         ]
-    },
-    {
-        "dataId": "6",
-        "webHref": "https://protected-garden-52217.herokuapp.com/",
-        "src": "https://i.ibb.co/q0m6C2Q/Budget.png",
-        "text": "Budget Tracker",
-        "description": "Budget Tracker allows users to keep track of their incoming and outgoing transactions! The application updates the user’s budget in real time whenever a transaction is submitted. It also has the capability to run offline so users do not need to worry if they lose connection. The data will be stored in IndexedDB until the user has online access.",
-        "repoLink": "https://github.com/HustinKava/Budget-Tracker",
-        "bOne": "Repo",
-        "bTwo": "Site",
-        "icons": [
-            {
-                "image": "https://i.ibb.co/NttJZWL/iconfinder-187-Js-logo-logos-4373213.png",   
-                "title": "JavaSCript"
-            },
-            {
-                "image": "https://i.ibb.co/QvJ4Q6Y/iconfinder-icon.png",
-                "title": "Node JS"
-            },
-            {
-                "image": "https://i.ibb.co/mvmmCsf/uxwing-svg-icon-editor.png",
-                "title": "MongoDB"
-            },
-            {
-                "image": "https://i.ibb.co/SdzTbPf/icons8-heroku-24.png",
-                "title": "Heroku"
-            },
-            {
-                "image": "https://i.ibb.co/dfLR8Zf/icons8-travis-ci-24.png",
-                "title": "Travis CI"
-            },
-            {
-                "image": "https://i.ibb.co/pzTsHDt/291791-24.png",
-                "title": "Bootstrap"
-            }
-        ]
-    },
-    {
-        "dataId": "7",
-        "webHref": "https://rocky-temple-86306.herokuapp.com/",
-        "src": "https://i.ibb.co/FKgnjHR/Directory.png",
-        "text": "Employee Directory",
-        "description": "Employee Directory is a simulated application that uses an API call when the page is loaded to render a list of 20 random users. The user is able to see an image, name, phone number, email address, and date of birth. Using the search input field, users are able to filter specific names and the application sorts in real time.",
-        "repoLink": "https://github.com/HustinKava/Employee-Directory",
-        "bOne": "Repo",
-        "bTwo": "Site",
-        "icons": [
-            {
-                "image": "https://i.ibb.co/HNMnVwV/1174949-24.png", 
-                "title": "React"
-            },
-            {
-                "image": "https://i.ibb.co/QvJ4Q6Y/iconfinder-icon.png",
-                "title": "Node JS"
-            },
-            {
-                "image": "https://i.ibb.co/SdzTbPf/icons8-heroku-24.png",
-                "title": "Heroku"
-            },
-            {
-                "image": "https://i.ibb.co/pzTsHDt/291791-24.png",
-                "title": "Bootstrap"
-            }   
-        ]
-    } 
+    }
 ]

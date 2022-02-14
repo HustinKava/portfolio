@@ -21,12 +21,11 @@ code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
-h1 {
+h1, h3, h4, p {
   color: white;
 }
 
 h3 {
-  color: white;
   display: block;
   font-size: 1.17em;
   margin-block-start: 0.5em;
@@ -43,11 +42,6 @@ h4 {
   margin-left: 0;
   margin-right: 0;
   font-weight: bold;
-  color: white;
-}
-
-p {
-  color: white;
 }
 
 html {

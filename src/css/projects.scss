@@ -50,16 +50,28 @@
         color: white !important;
         border: 1px solid rgb(255 255 255 / 50%) !important;
     }
-    
-    .projectImage {
-        padding-top: 10px;
-    }
-    
+        
     .descriptionDiv {
         margin-top: 50px !important;
         padding-bottom: 40px;
+    }    
+
+    .image-container {
+        position: relative;
+
+        .ipad-image {
+            padding-top: 10px;
+            position: relative;
+        }
+
+        .project-image {
+            width: 79%;
+            position: absolute;
+            height: auto;
+            top: 25px;
+            left: 38px;    
+        }
     }
-    
     
     /* MEDIA QUERIES */
     /* Extra small devices (Tested with Iphone X) */
