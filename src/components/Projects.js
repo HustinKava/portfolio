@@ -35,7 +35,7 @@ function Projects () {
 
                             <div className='image-container'>
                                 <img data-id={index + 1} className='ipad-image' src={Ipad} alt={data.text} style={{width: '100%'}} />
-                                <img data-id={index + 1} className='project-image' src={Flashcards} alt={data.text} />
+                                <img data-id={index + 1} className='project-image' src={data.src} alt={data.text} />
                             </div>
 
                                 <div className='links'>                                
