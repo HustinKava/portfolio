@@ -74,11 +74,11 @@ function About () {
                 <h3 className='techSkills'>Technical Skills:</h3>
             <div className='skills'>
                 <div>
-                    <img src="https://i.ibb.co/HNMnVwV/1174949-24.png" alt="react" className='iconSkill'/>
+                    <img src="https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/React.png" alt="react" className='iconSkill'/>
                     <p className='iconText'>React</p>
                 </div>
                 <div>
-                  <img src="https://i.ibb.co/NttJZWL/iconfinder-187-Js-logo-logos-4373213.png" alt="javascript" className='iconSkill'/>
+                  <img src="https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/Javascript.png" alt="javascript" className='iconSkill'/>
                     <p className='iconText'>JavaScript</p>
                 </div>
                 {/* <div>
@@ -86,15 +86,19 @@ function About () {
                     <p className='iconText'>HTML</p>
                 </div> */}
                 <div>
+                  <img src="https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/Sass.png" alt="Sass" className='iconSkill'/>
+                    <p className='iconText'>Sass</p>
+                </div>
+                {/* <div>
                   <img src="https://i.ibb.co/yPhh2Sq/iconfinder-badge-css-3-317756.png" alt="react" className='iconSkill'/>
                     <p className='iconText'>CSS</p>
-                </div>
+                </div> */}
                 <div>
-                    <img src="https://i.ibb.co/QvJ4Q6Y/iconfinder-icon.png" alt="nodejs" className='iconSkill'/>
+                    <img src="https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/NodeJS.png" alt="nodejs" className='iconSkill'/>
                     <p className='iconText'>Node.js</p>
                 </div>
                 <div>
-                    <img src="https://i.ibb.co/VxWy2m7/mysql.png" alt="mysql" className='iconSkill'/>
+                    <img src="https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/MySQL.png" alt="mysql" className='iconSkill'/>
                     <p className='iconText'>MySQL</p>
                 </div>
                 <div>
