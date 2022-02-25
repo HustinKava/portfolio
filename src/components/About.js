@@ -78,7 +78,7 @@ function About () {
                     <p className='iconText'>React</p>
                 </div>
                 <div>
-                  <img src="https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/Javascript.png" alt="javascript" className='iconSkill'/>
+                  <img src="https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/JS.png" alt="javascript" className='iconSkill'/>
                     <p className='iconText'>JavaScript</p>
                 </div>
                 {/* <div>
@@ -94,7 +94,7 @@ function About () {
                     <p className='iconText'>CSS</p>
                 </div> */}
                 <div>
-                    <img src="https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/NodeJS.png" alt="nodejs" className='iconSkill'/>
+                    <img src="https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/Node.png" alt="nodejs" className='iconSkill'/>
                     <p className='iconText'>Node.js</p>
                 </div>
                 <div>
@@ -102,7 +102,7 @@ function About () {
                     <p className='iconText'>MySQL</p>
                 </div>
                 <div>
-                    <img src="https://i.ibb.co/mvmmCsf/uxwing-svg-icon-editor.png" alt="mongodb" className='iconSkill'/>
+                    <img src="https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/MongoDB.png" alt="mongodb" className='iconSkill'/>
                     <p className='iconText'>MongoDB</p>
                 </div>
                 {/* <div>
@@ -110,13 +110,13 @@ function About () {
                     <p className='iconText'>VSCode</p>
                 </div> */}
                 <div>
-                    <img src="https://i.ibb.co/SdzTbPf/icons8-heroku-24.png" alt="heroku" className='iconSkill'/>
+                    <img src="https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/Heroku.png" alt="heroku" className='iconSkill'/>
                     <p className='iconText'>Heroku</p>
                 </div>
-                <div>
+                {/* <div>
                     <img src="https://i.ibb.co/dfLR8Zf/icons8-travis-ci-24.png" alt="travis" className='iconSkill'/>
                     <p className='iconText'>Travis CI</p>
-                </div>
+                </div> */}
             </div>
         </Container>
     )
