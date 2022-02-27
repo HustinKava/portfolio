@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Container, Grid, } from '@material-ui/core';
 import ProfilePic from '../images/ProfilePic.png';
 import Resume from '../resume/Resume.pdf';
 
 function About () {
+
+    useEffect(() => {
+        console.log(document.documentElement.offsetHeight)
+    }, []);
 
     return (
         <Container className='container' maxWidth="md">

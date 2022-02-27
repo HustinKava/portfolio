@@ -31,7 +31,8 @@ function Projects () {
 
                         <Grid className='bio' container spacing={2}>
                             <Grid item xs={12} sm={5}>
-                                {/* <img data-id={index + 1} className='projectImage' src={data.src} alt={data.text} style={{width: '100%'}} onMouseEnter={GifToggle} onMouseLeave={GifToggle}/> */}
+
+                            {/* <img data-id={index + 1} className='projectImage' src={data.src} alt={data.text} style={{width: '100%'}} onMouseEnter={GifToggle} onMouseLeave={GifToggle}/> */}
 
                             <div className='image-container'>
                                 <img data-id={index + 1} className='ipad-image' src={Ipad} alt={data.text} style={{width: '100%'}} />

@@ -4,23 +4,23 @@
         "webHref": "https://content-solutions.s3.ca-central-1.amazonaws.com/courseware/showcase/k8-interactives/lessons/flashcards.html",
         "src": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Flashcards.PNG",
         "text": "Flashcards ILO",
-        "description": "The Employee Tracker system is a must have for any organization to keep track of their staff, departments, managers, allocated budgets and employee salaries. This is a full CRUD application. Meaning, employers are able to Create, Read, Update and Delete entries that are saved into the database.",
+        "description": "Flashcards is an interactive learning object that can be inserted into TVO Elementary courses and is currently being used by Ontarios Ministry of Education. This ILO features a fully configurable json file to include images, text and audio with front and back cards. The ILO is fully responsive and AODA compliant.",
         "repoLink": "https://gitlab.tvo.org/digital-learning/interactives/flashcards",
         "bOne": "Repo",
         "bTwo": "Site",
         "icons": [
             {
                 "image": "https://i.ibb.co/NttJZWL/iconfinder-187-Js-logo-logos-4373213.png", 
+                "title": "React"
+            },
+            {
+                "image": "https://i.ibb.co/NttJZWL/iconfinder-187-Js-logo-logos-4373213.png", 
                 "title": "JavaScript"
             },
             {
                 "image": "https://i.ibb.co/QvJ4Q6Y/iconfinder-icon.png",
-                "title": "Node JS"
-            },
-            {
-                "image": "https://i.ibb.co/VxWy2m7/mysql.png",
-                "title": "MySQL"
-            }                                    
+                "title": "Sass"
+            }                              
         ]
     },
     {
@@ -28,23 +28,23 @@
         "webHref": "https://content-solutions.s3.ca-central-1.amazonaws.com/courseware/showcase/k8-interactives/lessons/flowchart.html",
         "src": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Flowchart.PNG",
         "text": "Flowchart ILO",
-        "description": "The Employee Tracker system is a must have for any organization to keep track of their staff, departments, managers, allocated budgets and employee salaries. This is a full CRUD application. Meaning, employers are able to Create, Read, Update and Delete entries that are saved into the database.",
+        "description": "Flowcharts is an interactive learning object that can be inserted into TVO Elementary courses and is currently being used by Ontarios Ministry of Education. This ILO features a fully configurable json file to switch between sequential and cyclical modes. The ILO is fully responsive and AODA compliant.",
         "repoLink": "https://gitlab.tvo.org/digital-learning/interactives/flowchart/",
         "bOne": "Repo",
         "bTwo": "Site",
         "icons": [
             {
                 "image": "https://i.ibb.co/NttJZWL/iconfinder-187-Js-logo-logos-4373213.png", 
+                "title": "React"
+            },
+            {
+                "image": "https://i.ibb.co/NttJZWL/iconfinder-187-Js-logo-logos-4373213.png", 
                 "title": "JavaScript"
             },
             {
                 "image": "https://i.ibb.co/QvJ4Q6Y/iconfinder-icon.png",
-                "title": "Node JS"
-            },
-            {
-                "image": "https://i.ibb.co/VxWy2m7/mysql.png",
-                "title": "MySQL"
-            }                                    
+                "title": "Sass"
+            }                                   
         ]
     },
     {
@@ -52,22 +52,26 @@
         "webHref": "https://galaxyprotocol.io/",
         "src": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Galaxy.PNG",
         "text": "Galaaxy Protocol",
-        "description": "The Employee Tracker system is a must have for any organization to keep track of their staff, departments, managers, allocated budgets and employee salaries. This is a full CRUD application. Meaning, employers are able to Create, Read, Update and Delete entries that are saved into the database.",
+        "description": "Galaxy Protocol is a start-up cryptocurrency company. This webpage features a vibrant, modern day interpretation of a space theme. Users can learn more about cryptocurrency, keep up to date with the latest news from Galaxy Protocol and connect to their social media platforms. This is a fully responsive React app.",
         "repoLink": "https://github.com/HustinKava/GalaxyProtocol",
         "bOne": "Repo",
         "bTwo": "Site",
         "icons": [
             {
                 "image": "https://i.ibb.co/NttJZWL/iconfinder-187-Js-logo-logos-4373213.png", 
-                "title": "JavaScript"
+                "title": "React"
             },
             {
                 "image": "https://i.ibb.co/QvJ4Q6Y/iconfinder-icon.png",
-                "title": "Node JS"
+                "title": "JavaScript"
             },
             {
                 "image": "https://i.ibb.co/VxWy2m7/mysql.png",
-                "title": "MySQL"
+                "title": "Sass"
+            },                                    
+            {
+                "image": "https://i.ibb.co/VxWy2m7/mysql.png",
+                "title": "Material UI"
             }                                    
         ]
     },  

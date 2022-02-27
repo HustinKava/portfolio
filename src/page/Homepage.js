@@ -19,11 +19,11 @@ function Homepage () {
             </div>
             <div id='About' className='space'/>
             <About/>
-            <div id='Projects' className='space'/>
+            <div id='Projects'/>
             <Projects/>
             {/* <div id='Portfolio' className='space'/>
             <Portfolio/> */}
-            <div id='Contact' className='space'/>
+            <div id='Contact'/>
             <Contact/>
             <div className='space'/>
             </div>
