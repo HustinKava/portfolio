@@ -3,7 +3,7 @@ import { Container, Grid, Button } from '@material-ui/core';
 import Data from '../data/Data.json';
 import ProjectData from '../data/Projects.json';
 import Ipad from '../images/ipad.png';
-import Flashcards from '../images/Flashcards.PNG';
+// import Flashcards from '../images/Flashcards.PNG';
 
 function Projects () {
 
@@ -15,6 +15,27 @@ function Projects () {
                 } else {
                     e.target.src = ProjectData[i].src
                 }       
+            }
+        }
+    }
+
+    const iconSwitch = (e) => {        
+        
+        for (let i =0; i < ProjectData.length; i++) {
+
+            if (e.target.parentNode.dataset.id === ProjectData[i].dataId) {                      
+                let icons = ProjectData[i].icons
+
+                for (let j = 0; j < icons.length; j++) {
+                    if (e.target.src === icons[j].image) {
+
+                        e.target.src = icons[j].colorImage    
+
+                    } else if (e.target.src === icons[j].colorImage) {
+
+                        e.target.src = icons[j].image                                                  
+                    }
+                }     
             }
         }
     }
@@ -59,11 +80,11 @@ function Projects () {
                                     </p></div>
                                 </div>
                                 <div className="icons">
-                                    <div>
+                                    <div data-id={index + 1}>
                                     {/* <h3 className='technologies'>Technology: </h3> */}
                                     { Array.isArray(data.icons) && data.icons.map((url, index) => {
                                         return (
-                                            <img className='techImg' key={index} src={url.image}  alt='Icon' title={url.title}/>
+                                            <img className='techImg' key={index} src={url.image}  alt='Icon' title={url.title} onMouseEnter={iconSwitch} onMouseLeave={iconSwitch}/>
                                     );})}
                                     </div>
                                 </div>

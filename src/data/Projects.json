@@ -4,22 +4,25 @@
         "webHref": "https://content-solutions.s3.ca-central-1.amazonaws.com/courseware/showcase/k8-interactives/lessons/flashcards.html",
         "src": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Flashcards.PNG",
         "text": "Flashcards ILO",
-        "description": "Flashcards is an interactive learning object that can be inserted into TVO Elementary courses and is currently being used by Ontarios Ministry of Education. This ILO features a fully configurable json file to include images, text and audio with front and back cards. The ILO is fully responsive and AODA compliant.",
+        "description": "Flashcards is an interactive learning object that can be inserted into TVO elementary courses and is currently being used by the Ontario Ministry of Education. This ILO features a fully configurable json file to include images, text and audio with front and back cards. The ILO is fully responsive and AODA compliant.",
         "repoLink": "https://gitlab.tvo.org/digital-learning/interactives/flashcards",
         "bOne": "Repo",
         "bTwo": "Site",
         "icons": [
             {
-                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/React.png", 
-                "title": "React"
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/React.png", 
+                "title": "React",
+                "colorImage": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/color-icons/React-color.png"
             },
             {
-                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/JS.png", 
-                "title": "JavaScript"
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/JS.png", 
+                "title": "JavaScript",
+                "colorImage": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/color-icons/JS-color.png"
             },
             {
-                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/Sass.png",
-                "title": "Sass"
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/Sass.png",
+                "title": "Sass",
+                "colorImage": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/color-icons/Sass-color.png"
             }                              
         ]
     },
@@ -28,22 +31,25 @@
         "webHref": "https://content-solutions.s3.ca-central-1.amazonaws.com/courseware/showcase/k8-interactives/lessons/flowchart.html",
         "src": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Flowchart.PNG",
         "text": "Flowchart ILO",
-        "description": "Flowcharts is an interactive learning object that can be inserted into TVO Elementary courses and is currently being used by Ontarios Ministry of Education. This ILO features a fully configurable json file to switch between sequential and cyclical modes. The ILO is fully responsive and AODA compliant.",
+        "description": "Flowcharts is an interactive learning object that can be inserted into TVO elementary courses and is currently being used by the Ontario Ministry of Education. This ILO features a fully configurable json file to switch between sequential and cyclical modes. The ILO is fully responsive and AODA compliant.",
         "repoLink": "https://gitlab.tvo.org/digital-learning/interactives/flowchart/",
         "bOne": "Repo",
         "bTwo": "Site",
         "icons": [
             {
-                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/React.png", 
-                "title": "React"
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/React.png", 
+                "title": "React",
+                "colorImage": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/color-icons/React-color.png"
             },
             {
-                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/JS.png", 
-                "title": "JavaScript"
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/JS.png", 
+                "title": "JavaScript",
+                "colorImage": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/color-icons/JS-color.png"
             },
             {
-                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/Sass.png",
-                "title": "Sass"
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/Sass.png",
+                "title": "Sass",
+                "colorImage": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/color-icons/Sass-color.png"
             }                                  
         ]
     },
@@ -58,20 +64,24 @@
         "bTwo": "Site",
         "icons": [
             {
-                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/React.png", 
-                "title": "React"
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/React.png", 
+                "title": "React",
+                "colorImage": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/color-icons/React-color.png"
             },
             {
-                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/JS.png", 
-                "title": "JavaScript"
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/JS.png", 
+                "title": "JavaScript",
+                "colorImage": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/color-icons/JS-color.png"
             },
             {
-                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/Sass.png",
-                "title": "Sass"
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/Sass.png",
+                "title": "Sass",
+                "colorImage": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/color-icons/Sass-color.png"
             },                                    
             {
-                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/MaterialUI.png",
-                "title": "Material UI"
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/MaterialUI.png",
+                "title": "Material UI",
+                "colorImage": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/color-icons/MaterialUI-color.png"
             }                                    
         ]
     },  
@@ -86,29 +96,35 @@
         "bTwo": "Site",
         "icons": [
             {
-                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/React.png", 
-                "title": "React"
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/React.png", 
+                "title": "React",
+                "colorImage": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/color-icons/React-color.png"
+            },                                   
+            {
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/MaterialUI.png",
+                "title": "Material UI",
+                "colorImage": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/color-icons/MaterialUI-color.png"
             },
             {
-                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/MongoDB.png",
-                "title": "MongoDB"
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/MongoDB.png",
+                "title": "MongoDB",
+                "colorImage": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/color-icons/MongoDB-color.png"
             },
             {
-                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/Node.png",
-                "title": "Node JS"
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/Node.png",
+                "title": "Node JS",
+                "colorImage": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/color-icons/Node-color.png"
             },
             {
-                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/Heroku.png",
-                "title": "Heroku"
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/Travis.png",
+                "title": "Travis CI",
+                "colorImage": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/color-icons/Travis-color.png"
             },
             {
-                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/Travis.png",
-                "title": "Travis CI"
-            },
-            {
-                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/MaterialUI.png",
-                "title": "Material UI"
-            }                                                                                    
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/Heroku.png",
+                "title": "Heroku",
+                "colorImage": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/color-icons/Heroku-color.png"
+            }            
         ]
     },
     {
@@ -122,28 +138,34 @@
         "bTwo": "Site",
         "icons": [
             {
-                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/React.png", 
-                "title": "React"
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/React.png", 
+                "title": "React",
+                "colorImage": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/color-icons/React-color.png"
             },
             {
-                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/MongoDB.png",
-                "title": "MongoDB"
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/MongoDB.png",
+                "title": "MongoDB",
+                "colorImage": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/color-icons/MongoDB-color.png"
             },
             {
-                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/Node.png",
-                "title": "Node JS"
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/Node.png",
+                "title": "Node JS",
+                "colorImage": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/color-icons/Node-color.png"
             },
             {
-                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/Heroku.png",
-                "title": "Heroku"
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/Heroku.png",
+                "title": "Heroku",
+                "colorImage": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/color-icons/Heroku-color.png"
             },
             {
-                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/Travis.png",
-                "title": "Travis CI"
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/Travis.png",
+                "title": "Travis CI",
+                "colorImage": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/color-icons/Travis-color.png"
             },
             {
-                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/Bootstrap.png",
-                "title": "Bootstrap"
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/Bootstrap.png",
+                "title": "Bootstrap",
+                "colorImage": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/color-icons/Bootstrap-color.png"
             }                                                                        
         ]
     },
@@ -158,24 +180,29 @@
         "bTwo": "Site",
         "icons": [
             {
-                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/Node.png",  
-                "title": "Node JS"
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/Node.png",  
+                "title": "Node JS",
+                "colorImage": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/color-icons/Node-color.png"
             },
             {
-                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/MySQL.png",
-                "title": "MySQL"
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/MySQL.png",
+                "title": "MySQL",
+                "colorImage": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/color-icons/MySQL-color.png"
             },
             {
-                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/Heroku.png",
-                "title": "Heroku"
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/Heroku.png",
+                "title": "Heroku",
+                "colorImage": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/color-icons/Heroku-color.png"
             },
             {
-                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/Travis.png",
-                "title": "Travis CI"
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/Travis.png",
+                "title": "Travis CI",
+                "colorImage": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/color-icons/Travis-color.png"
             },
             {
-                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/Bootstrap.png",
-                "title": "Bootstrap"
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/Bootstrap.png",
+                "title": "Bootstrap",
+                "colorImage": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/color-icons/Bootstrap-color.png"
             } 
         ]
     },  
@@ -190,12 +217,14 @@
         "bTwo": "Video",
         "icons": [
             {
-                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/JS.png", 
-                "title": "JavaScript"
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/JS.png", 
+                "title": "JavaScript",
+                "colorImage": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/color-icons/JS-color.png"
             },
             {
-                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/Node.png",
-                "title": "Node JS"
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/Node.png",
+                "title": "Node JS",
+                "colorImage": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/color-icons/Node-color.png"
             }                        
         ]
     },
@@ -210,16 +239,19 @@
         "bTwo": "Video",
         "icons": [
             {
-                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/JS.png", 
-                "title": "JavaScript"
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/JS.png", 
+                "title": "JavaScript",
+                "colorImage": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/color-icons/JS-color.png"
             },
             {
-                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/Node.png",
-                "title": "Node JS"
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/Node.png",
+                "title": "Node JS",
+                "colorImage": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/color-icons/Node-color.png"
             },
             {
-                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/MySQL.png",
-                "title": "MySQL"
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/MySQL.png",
+                "title": "MySQL",
+                "colorImage": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/color-icons/MySQL-color.png"
             }                                    
         ]
     }

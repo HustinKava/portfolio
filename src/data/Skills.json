@@ -1,36 +1,36 @@
 [ 
     {
-        "srcWhite": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/React.png",
+        "srcWhite": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/React.png",
         "srcColor": "test",
         "text": "React"
     },
     {
-        "srcWhite": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/JS.png",
+        "srcWhite": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/JS.png",
         "srcColor": "test",
         "text": "JavaScript"
     },
     {
-        "srcWhite": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/Sass.png",
+        "srcWhite": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/Sass.png",
         "srcColor": "test",
         "text": "Sass"
     },
     {
-        "srcWhite": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/Node.png",
+        "srcWhite": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/Node.png",
         "srcColor": "test",
         "text": "Node.js"
     },
     {
-        "srcWhite": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/MySQL.png",
+        "srcWhite": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/MySQL.png",
         "srcColor": "test",
         "text": "MySQL"
     },
     {
-        "srcWhite": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/MongoDB.png",
+        "srcWhite": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/MongoDB.png",
         "srcColor": "test",
         "text": "MongoDB"
     },
     {
-        "srcWhite": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/Heroku.png",
+        "srcWhite": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/Heroku.png",
         "srcColor": "test",
         "text": "Heroku"
     }
