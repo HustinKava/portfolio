@@ -10,6 +10,26 @@ function About () {
         console.log(document.documentElement.offsetHeight)
     }, []);
 
+    const iconSwitch = (e) => {       
+        
+        for (let i = 0; i < Skills.length; i++) {
+            if (e.currentTarget.dataset.id === Skills[i].dataId) {
+
+                if (e.currentTarget.children[0].src === Skills[i].srcWhite) {                    
+
+                    e.currentTarget.children[0].src = Skills[i].srcColor;
+                    e.currentTarget.children[1].style.color = Skills[i].fontColor;
+
+                } else if (e.currentTarget.children[0].src === Skills[i].srcColor) {
+                    
+                    e.currentTarget.children[0].src = Skills[i].srcWhite;
+                    e.currentTarget.children[1].style.color = "white";
+                }
+
+            }
+        }        
+    }
+
     return (
         <Container className='container' maxWidth="md">
             
@@ -83,6 +103,9 @@ function About () {
                     return (
                         <div
                             key={index}
+                            onMouseEnter={iconSwitch}
+                            onMouseLeave={iconSwitch}
+                            data-id={index + 1}
                         >
                             <img                                 
                                 src={data.srcWhite} 
