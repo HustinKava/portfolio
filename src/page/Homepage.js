@@ -11,7 +11,7 @@ import particleConfig from '../components/configParticles';
 function Homepage () {
 
     return (
-        <div>
+        <div>            
             <Navbar/>
             <div className='App' style={{position:'relative'}}>
             <div className='particlesDiv' style={{ position: 'fixed', zIndex: '-1' }}>

@@ -1,0 +1,37 @@
+[ 
+    {
+        "srcWhite": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/React.png",
+        "srcColor": "test",
+        "text": "React"
+    },
+    {
+        "srcWhite": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/JS.png",
+        "srcColor": "test",
+        "text": "JavaScript"
+    },
+    {
+        "srcWhite": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/Sass.png",
+        "srcColor": "test",
+        "text": "Sass"
+    },
+    {
+        "srcWhite": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/Node.png",
+        "srcColor": "test",
+        "text": "Node.js"
+    },
+    {
+        "srcWhite": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/MySQL.png",
+        "srcColor": "test",
+        "text": "MySQL"
+    },
+    {
+        "srcWhite": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/MongoDB.png",
+        "srcColor": "test",
+        "text": "MongoDB"
+    },
+    {
+        "srcWhite": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/Heroku.png",
+        "srcColor": "test",
+        "text": "Heroku"
+    }
+]

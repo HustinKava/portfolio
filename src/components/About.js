@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { Container, Grid, } from '@material-ui/core';
 import ProfilePic from '../images/ProfilePic.png';
 import Resume from '../resume/Resume.pdf';
+import Skills from '../data/Skills.json';
 
 function About () {
 
@@ -77,50 +78,24 @@ function About () {
             <div className='skillTitle'></div>
                 <h3 className='techSkills'>Technical Skills:</h3>
             <div className='skills'>
-                <div>
-                    <img src="https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/React.png" alt="react" className='iconSkill'/>
-                    <p className='iconText'>React</p>
-                </div>
-                <div>
-                  <img src="https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/JS.png" alt="javascript" className='iconSkill'/>
-                    <p className='iconText'>JavaScript</p>
-                </div>
-                {/* <div>
-                    <img src="https://i.ibb.co/kBhZN3k/iconfinder-badge-html-5-317755.png" alt="html" className='icon'/>
-                    <p className='iconText'>HTML</p>
-                </div> */}
-                <div>
-                  <img src="https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/Sass.png" alt="Sass" className='iconSkill'/>
-                    <p className='iconText'>Sass</p>
-                </div>
-                {/* <div>
-                  <img src="https://i.ibb.co/yPhh2Sq/iconfinder-badge-css-3-317756.png" alt="react" className='iconSkill'/>
-                    <p className='iconText'>CSS</p>
-                </div> */}
-                <div>
-                    <img src="https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/Node.png" alt="nodejs" className='iconSkill'/>
-                    <p className='iconText'>Node.js</p>
-                </div>
-                <div>
-                    <img src="https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/MySQL.png" alt="mysql" className='iconSkill'/>
-                    <p className='iconText'>MySQL</p>
-                </div>
-                <div>
-                    <img src="https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/MongoDB.png" alt="mongodb" className='iconSkill'/>
-                    <p className='iconText'>MongoDB</p>
-                </div>
-                {/* <div>
-                    <img src="https://i.ibb.co/gVZGhj9/6929231-24.png" alt="vscode" className='iconSkill'/>
-                    <p className='iconText'>VSCode</p>
-                </div> */}
-                <div>
-                    <img src="https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/Heroku.png" alt="heroku" className='iconSkill'/>
-                    <p className='iconText'>Heroku</p>
-                </div>
-                {/* <div>
-                    <img src="https://i.ibb.co/dfLR8Zf/icons8-travis-ci-24.png" alt="travis" className='iconSkill'/>
-                    <p className='iconText'>Travis CI</p>
-                </div> */}
+
+                {Skills.map((data, index) => {
+                    return (
+                        <div
+                            key={index}
+                        >
+                            <img                                 
+                                src={data.srcWhite} 
+                                alt={data.text} 
+                                className='iconSkill'
+                            />
+                            <p 
+                                className='iconText'>
+                                    {data.text}
+                            </p>
+                        </div>                        
+                    )
+                })}
             </div>
         </Container>
     )

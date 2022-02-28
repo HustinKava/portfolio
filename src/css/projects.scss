@@ -14,32 +14,10 @@
         display:inline-block;
     }
     
-    /* .descriptionDiv {
-        z-index: 10;
-        overflow: hidden;
-        font-size: 14px;
-        margin-left: 10px;
-    } */
-    
     .descriptionText {
         font-size: 20px;
         font-family: 'Nunito', sans-serif;
     }
-    
-    /* .icons {
-        padding-top: 5%;
-        position: relative;
-        overflow: hidden;
-        margin-left: 10px;
-        text-align: center;
-        padding-bottom: 5%;
-    } */
-    
-    // .technologies {
-    //     display: inline;
-    //     font-size: 20px;
-    //     font-weight: 600;
-    // }
     
     .techImg {
         margin-bottom: -1%;
@@ -90,21 +68,18 @@
     
     /* Medium devices (tablets, 768px and up) */
     @media (min-width: 768px) { h4, .descriptionDiv, .icons {text-align: left;}}
-    // @media (min-width: 768px) { .descriptionDiv {margin-top: 50px !important; padding-bottom: 40px;}}
     @media (min-width: 768px) { .descriptionDiv {margin-top: 0px !important; padding-bottom: 0px;}}
     @media (min-width: 768px) { h4 {margin-bottom: 0;}}
     @media (min-width: 768px) { .descriptionText {font-size: 18px;}}
     
     /* // Large devices (desktops, 992px and up) */
     @media (min-width: 992px) { h4, .descriptionDiv, .icons {text-align: left;}}
-    // @media (min-width: 992px) { .descriptionDiv {margin-top: 50px !important; padding-bottom: 40px;}}
     @media (min-width: 992px) { .descriptionDiv {margin-top: 0px !important; padding-bottom: 0px;}}
     @media (min-width: 992px) { h4 {margin-bottom: 0;}}
     @media (min-width: 992px) { .descriptionText {font-size: 20px;}}
     
     /* // Extra large devices (large desktops, 1200px and up) */
     @media (min-width: 1200px) { h4, .descriptionDiv, .icons {text-align: left;}} 
-    // @media (min-width: 1200px) { .descriptionDiv {margin-top: 50px !important; padding-bottom: 40px;}} 
     @media (min-width: 1200px) { .descriptionDiv {margin-top: 0px !important; padding-bottom: 0px;}} 
     @media (min-width: 1200px) { h4 {margin-bottom: 0;}} 
     @media (min-width: 1200px) { .descriptionText {font-size: 20px;}} 
