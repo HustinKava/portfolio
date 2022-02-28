@@ -60,7 +60,7 @@ function Projects () {
                                 </div>
                                 <div className="icons">
                                     <div>
-                                    <h3 className='technologies'>Technology: </h3>
+                                    {/* <h3 className='technologies'>Technology: </h3> */}
                                     { Array.isArray(data.icons) && data.icons.map((url, index) => {
                                         return (
                                             <img className='techImg' key={index} src={url.image}  alt='Icon' title={url.title}/>

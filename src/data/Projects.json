@@ -10,15 +10,15 @@
         "bTwo": "Site",
         "icons": [
             {
-                "image": "https://i.ibb.co/NttJZWL/iconfinder-187-Js-logo-logos-4373213.png", 
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/React.png", 
                 "title": "React"
             },
             {
-                "image": "https://i.ibb.co/NttJZWL/iconfinder-187-Js-logo-logos-4373213.png", 
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/JS.png", 
                 "title": "JavaScript"
             },
             {
-                "image": "https://i.ibb.co/QvJ4Q6Y/iconfinder-icon.png",
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/Sass.png",
                 "title": "Sass"
             }                              
         ]
@@ -34,17 +34,17 @@
         "bTwo": "Site",
         "icons": [
             {
-                "image": "https://i.ibb.co/NttJZWL/iconfinder-187-Js-logo-logos-4373213.png", 
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/React.png", 
                 "title": "React"
             },
             {
-                "image": "https://i.ibb.co/NttJZWL/iconfinder-187-Js-logo-logos-4373213.png", 
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/JS.png", 
                 "title": "JavaScript"
             },
             {
-                "image": "https://i.ibb.co/QvJ4Q6Y/iconfinder-icon.png",
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/Sass.png",
                 "title": "Sass"
-            }                                   
+            }                                  
         ]
     },
     {
@@ -58,19 +58,19 @@
         "bTwo": "Site",
         "icons": [
             {
-                "image": "https://i.ibb.co/NttJZWL/iconfinder-187-Js-logo-logos-4373213.png", 
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/React.png", 
                 "title": "React"
             },
             {
-                "image": "https://i.ibb.co/QvJ4Q6Y/iconfinder-icon.png",
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/JS.png", 
                 "title": "JavaScript"
             },
             {
-                "image": "https://i.ibb.co/VxWy2m7/mysql.png",
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/Sass.png",
                 "title": "Sass"
             },                                    
             {
-                "image": "https://i.ibb.co/VxWy2m7/mysql.png",
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/MaterialUI.png",
                 "title": "Material UI"
             }                                    
         ]
@@ -86,31 +86,27 @@
         "bTwo": "Site",
         "icons": [
             {
-                "image": "https://i.ibb.co/HNMnVwV/1174949-24.png", 
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/React.png", 
                 "title": "React"
             },
             {
-                "image": "https://i.ibb.co/mvmmCsf/uxwing-svg-icon-editor.png",
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/MongoDB.png",
                 "title": "MongoDB"
             },
             {
-                "image": "https://i.ibb.co/QvJ4Q6Y/iconfinder-icon.png",
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/Node.png",
                 "title": "Node JS"
             },
             {
-                "image": "https://i.ibb.co/4KC6whZ/5894313931548218185-24.png",
-                "title": "Jest"
-            },
-            {
-                "image": "https://i.ibb.co/SdzTbPf/icons8-heroku-24.png",
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/Heroku.png",
                 "title": "Heroku"
             },
             {
-                "image": "https://i.ibb.co/dfLR8Zf/icons8-travis-ci-24.png",
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/Travis.png",
                 "title": "Travis CI"
             },
             {
-                "image": "https://i.ibb.co/kyQ7LgM/icons8-material-ui-24.png",
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/MaterialUI.png",
                 "title": "Material UI"
             }                                                                                    
         ]
@@ -126,31 +122,27 @@
         "bTwo": "Site",
         "icons": [
             {
-                "image": "https://i.ibb.co/HNMnVwV/1174949-24.png", 
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/React.png", 
                 "title": "React"
             },
             {
-                "image": "https://i.ibb.co/mvmmCsf/uxwing-svg-icon-editor.png",
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/MongoDB.png",
                 "title": "MongoDB"
             },
             {
-                "image": "https://i.ibb.co/QvJ4Q6Y/iconfinder-icon.png",
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/Node.png",
                 "title": "Node JS"
             },
             {
-                "image": "https://i.ibb.co/SdzTbPf/icons8-heroku-24.png",
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/Heroku.png",
                 "title": "Heroku"
             },
             {
-                "image": "https://i.ibb.co/dfLR8Zf/icons8-travis-ci-24.png",
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/Travis.png",
                 "title": "Travis CI"
             },
             {
-                "image": "https://i.ibb.co/qnvpspn/3585995681551952104-24.png",
-                "title": "Socket IO"
-            },
-            {
-                "image": "https://i.ibb.co/pzTsHDt/291791-24.png",
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/Bootstrap.png",
                 "title": "Bootstrap"
             }                                                                        
         ]
@@ -166,27 +158,23 @@
         "bTwo": "Site",
         "icons": [
             {
-                "image": "https://i.ibb.co/QvJ4Q6Y/iconfinder-icon.png",  
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/Node.png",  
                 "title": "Node JS"
             },
             {
-                "image": "https://i.ibb.co/VxWy2m7/mysql.png",
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/MySQL.png",
                 "title": "MySQL"
             },
             {
-                "image": "https://i.ibb.co/SdzTbPf/icons8-heroku-24.png",
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/Heroku.png",
                 "title": "Heroku"
             },
             {
-                "image": "https://i.ibb.co/dfLR8Zf/icons8-travis-ci-24.png",
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/Travis.png",
                 "title": "Travis CI"
             },
             {
-                "image": "https://i.ibb.co/GQ2yH77/icons8-handlebar-mustache-24.png",
-                "title": "Handlebars"
-            },
-            {
-                "image": "https://i.ibb.co/pzTsHDt/291791-24.png",
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/Bootstrap.png",
                 "title": "Bootstrap"
             } 
         ]
@@ -202,11 +190,11 @@
         "bTwo": "Video",
         "icons": [
             {
-                "image": "https://i.ibb.co/NttJZWL/iconfinder-187-Js-logo-logos-4373213.png", 
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/JS.png", 
                 "title": "JavaScript"
             },
             {
-                "image": "https://i.ibb.co/QvJ4Q6Y/iconfinder-icon.png",
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/Node.png",
                 "title": "Node JS"
             }                        
         ]
@@ -222,15 +210,15 @@
         "bTwo": "Video",
         "icons": [
             {
-                "image": "https://i.ibb.co/NttJZWL/iconfinder-187-Js-logo-logos-4373213.png", 
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/JS.png", 
                 "title": "JavaScript"
             },
             {
-                "image": "https://i.ibb.co/QvJ4Q6Y/iconfinder-icon.png",
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/Node.png",
                 "title": "Node JS"
             },
             {
-                "image": "https://i.ibb.co/VxWy2m7/mysql.png",
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/MySQL.png",
                 "title": "MySQL"
             }                                    
         ]
