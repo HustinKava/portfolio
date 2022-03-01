@@ -5,14 +5,22 @@
     
     .MuiTab-textColorPrimary {
         color: white !important;
+        box-shadow: 0 0 0 2px #ffff !important;
+        border-radius: 4px !important;
+        margin-right: 10px !important;
+        border: none !important;
     }
     
     .MuiTab-textColorPrimary.Mui-selected {
-        color: #BADFFF !important;
+        // color: #BADFFF !important;
+        color: #71afed !important;
+        background-color: white;
+        box-shadow: 0 0 0 4px #badfff !important;
     }
     
     .PrivateTabIndicator-colorPrimary-2 {
-        background-color: #BADFFF !important;
+        // background-color: #BADFFF !important;
+        background-color: transparent !important;
     }
     
     .MuiTab-wrapper {
@@ -22,6 +30,13 @@
         align-items: center;
         flex-direction: column;
         justify-content: center;
+        padding-top: 0 !important;
+    }
+
+    .MuiTab-root {
+        font-weight: 600 !important;
+        font-size: 1rem !important;
+        margin-left: 4px !important;
     }
     
     /* .test {
@@ -50,7 +65,7 @@
     @media (min-width: 992px) { .navImage {width: 100px; height: 100px; position: absolute; bottom: 1px; left: 10px;}}
     
     /* // Extra large devices (large desktops, 1200px and up) */
-    @media (min-width: 1200px) { .MuiTabs-flexContainer {padding-bottom: 20px !important;}} 
+    @media (min-width: 1200px) { .MuiTabs-flexContainer {padding-bottom: 25px !important;}} 
     @media (min-width: 1200px) { .MuiTab-wrapper {padding-top: 20px;}} 
     @media (min-width: 1200px) { .navImage {width: 100px; height: 100px; position: absolute; bottom: 1px; left: 10px;}}             
 }

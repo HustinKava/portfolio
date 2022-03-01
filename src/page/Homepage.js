@@ -4,7 +4,6 @@ import About from '../components/About';
 import Projects from '../components/Projects';
 // import Portfolio from '../components/Portfolio';
 import Contact from '../components/Contact';
-// import Particles from 'react-particles-js';
 import Particles from "react-tsparticles";
 import particleConfig from '../components/configParticles';
 

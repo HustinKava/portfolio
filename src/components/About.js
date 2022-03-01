@@ -10,7 +10,10 @@ function About () {
         console.log(document.documentElement.offsetHeight)
     }, []);
 
-    const iconSwitch = (e) => {               
+    const iconSwitch = (e) => {  
+        e.stopPropagation();
+        e.preventDefault();
+        
         for (let i = 0; i < Skills.length; i++) {
             if (e.currentTarget.dataset.id === Skills[i].dataId) {
                 if (e.currentTarget.children[0].src === Skills[i].srcWhite) {                    
@@ -23,19 +26,19 @@ function About () {
     }
 
     const linkedin = (e) => {
-        e.target.src === "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/Linkedin.png" ? 
-        e.target.src = "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/color-icons/Linkedin-color.png" : 
-        e.target.src = "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/Linkedin.png"
+        e.currentTarget.children[0].children[0].src === "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/Linkedin.png" ? 
+        e.currentTarget.children[0].children[0].src = "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/color-icons/Linkedin-color.png" : 
+        e.currentTarget.children[0].children[0].src = "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/Linkedin.png"
     }
     const resume = (e) => {
-        e.target.src === "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/Acrobat.png" ? 
-        e.target.src = "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/color-icons/Acrobat-color.png" : 
-        e.target.src = "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/Acrobat.png"
+        e.currentTarget.children[0].children[0].src === "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/Acrobat.png" ? 
+        e.currentTarget.children[0].children[0].src = "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/color-icons/Acrobat-color.png" : 
+        e.currentTarget.children[0].children[0].src = "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/Acrobat.png"
     }
     const github = (e) => {
-        e.target.src === "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/Github.png" ? 
-        e.target.src = "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/color-icons/Github-color.png" : 
-        e.target.src = "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/Github.png"
+        e.currentTarget.children[0].children[0].src === "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/Github.png" ? 
+        e.currentTarget.children[0].children[0].src = "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/color-icons/Github-color.png" : 
+        e.currentTarget.children[0].children[0].src = "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/Github.png"
     }
 
     return (
@@ -80,20 +83,20 @@ function About () {
                 </Grid>
                 <Grid item xs={12} sm={6}>
                     <div className='social'>
-                    <div>
-                        <a href="http://www.linkedin.com/in/hustin-kava" target="_blank" rel="noopener noreferrer" onMouseEnter={linkedin} onMouseLeave={linkedin}>
+                    <div data-id="1" onMouseEnter={linkedin} onMouseLeave={linkedin}>
+                        <a href="http://www.linkedin.com/in/hustin-kava" target="_blank" rel="noopener noreferrer">
                             <img src="https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/Linkedin.png" alt="linkedin" className='icon'/>
                         </a>
                         <p className='socialText'>Linkedin</p>
                     </div>
-                    <div>
-                        <a href={Resume} target="_blank" rel="noopener noreferrer" onMouseEnter={resume} onMouseLeave={resume}>
+                    <div data-id="2" onMouseEnter={resume} onMouseLeave={resume}>
+                        <a href={Resume} target="_blank" rel="noopener noreferrer">
                         <img src="https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/Acrobat.png" alt="resume" className='icon'/>
                         </a>
                         <p className='socialText'>Resume</p>
                     </div>
-                    <div>
-                        <a href="https://github.com/HustinKava" target="_blank" rel="noopener noreferrer" onMouseEnter={github} onMouseLeave={github}>
+                    <div data-id="3" onMouseEnter={github} onMouseLeave={github}>
+                        <a href="https://github.com/HustinKava" target="_blank" rel="noopener noreferrer">
                         <img src="https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/Github.png" alt="github" className='icon'/>
                         </a>
                         <p className='socialText'>GitHub</p>
