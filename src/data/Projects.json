@@ -99,12 +99,12 @@
                 "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/React.png", 
                 "title": "React",
                 "colorImage": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/color-icons/React-color.png"
-            },                                   
+            },    
             {
-                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/MaterialUI.png",
-                "title": "Material UI",
-                "colorImage": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/color-icons/MaterialUI-color.png"
-            },
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/JS.png", 
+                "title": "JavaScript",
+                "colorImage": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/color-icons/JS-color.png"
+            },                               
             {
                 "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/MongoDB.png",
                 "title": "MongoDB",
@@ -124,6 +124,11 @@
                 "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/Heroku.png",
                 "title": "Heroku",
                 "colorImage": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/color-icons/Heroku-color.png"
+            },
+            {
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/MaterialUI.png",
+                "title": "Material UI",
+                "colorImage": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/color-icons/MaterialUI-color.png"
             }            
         ]
     },
@@ -141,6 +146,11 @@
                 "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/React.png", 
                 "title": "React",
                 "colorImage": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/color-icons/React-color.png"
+            },
+            {
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/JS.png", 
+                "title": "JavaScript",
+                "colorImage": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/color-icons/JS-color.png"
             },
             {
                 "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/MongoDB.png",
@@ -179,6 +189,11 @@
         "bOne": "Repo",
         "bTwo": "Site",
         "icons": [
+            {
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/JS.png", 
+                "title": "JavaScript",
+                "colorImage": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/color-icons/JS-color.png"
+            },
             {
                 "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/Node.png",  
                 "title": "Node JS",

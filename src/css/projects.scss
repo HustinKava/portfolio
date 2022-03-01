@@ -6,6 +6,11 @@
     .links {
         text-align: center;
         padding-top: 3%;
+
+        .MuiButton-outlinedPrimary {
+            color: white !important;
+            border: 1px solid rgba(255, 255, 255, 0.5) !important;
+        }
     }
     
     .divider{
@@ -22,11 +27,6 @@
     .techImg {
         margin-bottom: -1%;
         padding-right: 2px;
-    }
-    
-    .MuiButton-outlinedPrimary {
-        color: white !important;
-        border: 1px solid rgb(255 255 255 / 50%) !important;
     }
         
     .descriptionDiv {

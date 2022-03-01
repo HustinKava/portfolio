@@ -4,7 +4,7 @@
         "srcWhite": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/React.png",
         "srcColor": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/color-icons/React-color.png",
         "text": "React",
-        "fontColor": "#354EFA"
+        "fontColor": "#2acdfa"
     },
     {
         "dataId": "2",
@@ -39,7 +39,7 @@
         "srcWhite": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/MongoDB.png",
         "srcColor": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/color-icons/MongoDB-color.png",
         "text": "MongoDB",
-        "fontColor": "#47F93E"
+        "fontColor": "#2ec84f"
     },
     {
         "dataId": "7",

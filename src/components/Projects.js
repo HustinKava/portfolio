@@ -66,7 +66,7 @@ function Projects () {
                                     </Button>
                                                                         
                                     <div className="divider"/>
-
+                                    
                                     <Button variant="outlined" color="primary" href={data.webHref} target="_blank" rel="noopener noreferrer">
                                         {data.bTwo}
                                     </Button>                                
@@ -81,7 +81,6 @@ function Projects () {
                                 </div>
                                 <div className="icons">
                                     <div data-id={index + 1}>
-                                    {/* <h3 className='technologies'>Technology: </h3> */}
                                     { Array.isArray(data.icons) && data.icons.map((url, index) => {
                                         return (
                                             <img className='techImg' key={index} src={url.image}  alt='Icon' title={url.title} onMouseEnter={iconSwitch} onMouseLeave={iconSwitch}/>
