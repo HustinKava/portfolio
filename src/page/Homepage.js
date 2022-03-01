@@ -19,8 +19,6 @@ function Homepage () {
 
     const navHighlight = (e) => {
 
-        console.log(e.currentTarget)
-
         let dataId = e.currentTarget.dataset.id
 
         switch(dataId) {
@@ -38,7 +36,7 @@ function Homepage () {
             break;
             default:
             console.log("default 1")
-          }
+        }
     } 
 
     return (
@@ -55,12 +53,22 @@ function Homepage () {
             </div>
 
             <div id='About' className='space'/>
-            <div data-id="1" onMouseEnter={navHighlight}>
+            <div 
+                data-id="1" 
+                onMouseEnter={navHighlight}
+                onTouchMove={navHighlight} 
+                onTouchEnd={navHighlight}
+            >
                 <About/>
             </div>
 
             <div id='Projects'/>
-            <div data-id="2" onMouseEnter={navHighlight}>
+            <div 
+                data-id="2" 
+                onMouseEnter={navHighlight}
+                onTouchMove={navHighlight} 
+                onTouchEnd={navHighlight}
+            >
                 <Projects/>
             </div>
 
@@ -68,7 +76,12 @@ function Homepage () {
             <Portfolio/> */}
 
             <div id='Contact'/>
-            <div data-id="3" onMouseEnter={navHighlight}>
+            <div 
+                data-id="3" 
+                onMouseEnter={navHighlight}
+                onTouchMove={navHighlight} 
+                onTouchEnd={navHighlight}
+            >
                 <Contact/>
             </div>
 
