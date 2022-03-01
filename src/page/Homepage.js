@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Navbar from '../components/Navbar';
 import About from '../components/About';
 import Projects from '../components/Projects';
@@ -10,21 +10,68 @@ import particleConfig from '../components/configParticles';
 
 function Homepage () {
 
+    const [value, setValue] = useState(0)
+
+    const handleTabs = (e, val) => {
+        setValue(val)
+        console.log(val)
+    };
+
+    const navHighlight = (e) => {
+
+        console.log(e.currentTarget)
+
+        let dataId = e.currentTarget.dataset.id
+
+        switch(dataId) {
+            case "1":
+            console.log("div 1")
+            setValue(0)
+            break;
+            case "2":
+            console.log("div 2")
+            setValue(1)
+            break;
+            case "3":
+            console.log("div 3")
+            setValue(2)
+            break;
+            default:
+            console.log("default 1")
+          }
+    } 
+
     return (
         <div>            
-            <Navbar/>
+            <Navbar
+                handleTabs={handleTabs}
+                value={value}
+            />
+
             <div className='App' style={{position:'relative'}}>
+            
             <div className='particlesDiv' style={{ position: 'fixed', zIndex: '-1' }}>
-            <Particles className='particles' params={particleConfig} />
+                <Particles className='particles' params={particleConfig} />
             </div>
+
             <div id='About' className='space'/>
-            <About/>
+            <div data-id="1" onMouseEnter={navHighlight}>
+                <About/>
+            </div>
+
             <div id='Projects'/>
-            <Projects/>
+            <div data-id="2" onMouseEnter={navHighlight}>
+                <Projects/>
+            </div>
+
             {/* <div id='Portfolio' className='space'/>
             <Portfolio/> */}
+
             <div id='Contact'/>
-            <Contact/>
+            <div data-id="3" onMouseEnter={navHighlight}>
+                <Contact/>
+            </div>
+
             <div className='space'/>
             </div>
         </div>

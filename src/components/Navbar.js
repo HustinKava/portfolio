@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
 import { Tabs, Tab, Grid } from '@material-ui/core';
 
-function Navbar () {
+function Navbar ({ handleTabs, value}) {
 
-    const [value, setValue] = useState(0)
+    // const [value, setValue] = useState(0)
 
-    const handleTabs = (e, val) => {
-        setValue(val)
-    };
+    // const handleTabs = (e, val) => {
+    //     setValue(val)
+    //     console.log(val)
+    // };
    
     return (
         <div style={{position: "sticky", top:"0", width:"100%", zIndex: '100', borderBottom: 'solid 5px white', backgroundColor: '#71afed'}}>
