@@ -7,12 +7,22 @@
         text-align: center;
         padding-top: 3%;
 
-        .MuiButton-outlinedPrimary {
-            color: white !important;
-            border: 1px solid rgba(255, 255, 255, 0.5) !important;
-        }
     }
     
+    .MuiButton-outlinedPrimary {
+        color: white !important;
+        // border: 1px solid rgba(255, 255, 255, 0.5) !important;
+        border: none !important;
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5) !important;
+
+        &:hover, &:focus {
+            color: #71afed!important;
+            box-shadow: 0 0 0 2px #badfff !important;
+            background-color: white !important;
+            border: none !important;
+        }
+    }
+
     .divider{
         width:2%;
         height:auto;
@@ -27,6 +37,7 @@
     .techImg {
         margin-bottom: -1%;
         padding-right: 2px;
+        cursor: pointer;
     }
         
     .descriptionDiv {
@@ -36,21 +47,25 @@
         padding-bottom: 0px;
     }    
 
-    .image-container {
-        position: relative;
+    // .image-container {
+    //     position: relative;
 
-        .ipad-image {
-            padding-top: 10px;
-            position: relative;
-        }
+    //     .ipad-image {
+    //         padding-top: 10px;
+    //         position: relative;
+    //     }
 
-        .project-image {
-            width: 79%;
-            position: absolute;
-            height: auto;
-            top: 25px;
-            left: 38px;    
-        }
+    //     .project-image {
+    //         width: 79%;
+    //         position: absolute;
+    //         height: auto;
+    //         top: 25px;
+    //         left: 38px;    
+    //     }
+    // }
+
+    .projectImage {
+        padding-top: 10px;
     }
     
     /* MEDIA QUERIES */

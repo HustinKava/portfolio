@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Grid, Button } from '@material-ui/core';
 import Data from '../data/Data.json';
 import ProjectData from '../data/Projects.json';
-import Ipad from '../images/ipad.png';
+// import Ipad from '../images/ipad.png';
 // import Flashcards from '../images/Flashcards.PNG';
 
 function Projects () {
@@ -53,12 +53,14 @@ function Projects () {
                         <Grid className='bio' container spacing={2}>
                             <Grid item xs={12} sm={5}>
 
+                            <img data-id={index + 1} className='projectImage' src={data.staticSrc} alt={data.text} style={{width: '100%'}}/>
+                            
                             {/* <img data-id={index + 1} className='projectImage' src={data.src} alt={data.text} style={{width: '100%'}} onMouseEnter={GifToggle} onMouseLeave={GifToggle}/> */}
 
-                            <div className='image-container'>
+                            {/* <div className='image-container'>
                                 <img data-id={index + 1} className='ipad-image' src={Ipad} alt={data.text} style={{width: '100%'}} />
                                 <img data-id={index + 1} className='project-image' src={data.src} alt={data.text} />
-                            </div>
+                            </div> */}
 
                                 <div className='links'>                                
                                     <Button variant="outlined" color="primary" href={data.repoLink} target="_blank" rel="noopener noreferrer">
