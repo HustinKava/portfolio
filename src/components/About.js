@@ -1,14 +1,10 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Container, Grid, } from '@material-ui/core';
 import ProfilePic from '../images/ProfilePic.png';
 import Resume from '../resume/Resume.pdf';
 import Skills from '../data/Skills.json';
 
 function About () {
-
-    useEffect(() => {
-        console.log(document.documentElement.offsetHeight)
-    }, []);
 
     const iconSwitch = (e) => {  
         e.stopPropagation();
