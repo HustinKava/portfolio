@@ -12,19 +12,16 @@
     }
     
     .MuiTab-textColorPrimary.Mui-selected {
-        // color: #BADFFF !important;
         color: #71afed !important;
         background-color: white;
         box-shadow: 0 0 0 4px #badfff !important;
     }
     
     .PrivateTabIndicator-colorPrimary-2 {
-        // background-color: #BADFFF !important;
         background-color: transparent !important;
     }
     
     .MuiTab-wrapper {
-        /* padding-top: 20px; */
         width: 100%;
         display: inline-flex;
         align-items: center;
@@ -39,33 +36,91 @@
         margin-left: 4px !important;
     }
     
-    /* .test {
-        display: inline !important;
-    } */
-    
     /* MEDIA QUERIES */
     /* Extra small devices (Tested with Iphone X) */
-    @media (min-width: 360px) { .MuiTabs-flexContainer {padding-bottom: 0;}}
-    @media (min-width: 360px) { .MuiTab-wrapper {padding-top: 0;}}
-    @media (min-width: 360px) { .navImage {width: 35px; height: 35px; position: absolute; bottom: 6px; left: 5px;}}
+    @media (min-width: 360px) { 
+        .MuiTabs-flexContainer {
+            padding-bottom: 0; padding-top: 6px;
+        }
+        .MuiTab-root {
+            min-height: unset !important; 
+            font-size: 0.875rem !important;
+        }
+        .MuiTab-wrapper {
+            padding-top: 0;
+        }
+        // .navImage {
+        //     width: 35px; 
+        //     height: 35px; 
+        //     position: absolute; 
+        //     bottom: 6px; 
+        //     left: 5px;
+        // }
+    }
     
     /* Small devices (landscape phones, 576px and up) */
-    @media (min-width: 576px) { .MuiTabs-flexContainer {padding-bottom: 20px !important;}}
-    @media (min-width: 576px) { .MuiTabs-flexContainer {padding-top: 20px;}}
-    @media (min-width: 576px) { .navImage {width: 80px; height: 80px; position: absolute; bottom: 1px; left: 10px;}}
+    @media (min-width: 576px) { 
+        .MuiTabs-flexContainer {
+            padding-bottom: 20px !important; 
+            padding-top: 20px;
+        }
+        // .navImage {
+        //     width: 80px; 
+        //     height: 80px; 
+        //     position: absolute; 
+        //     bottom: 1px; 
+        //     left: 10px;
+        // }
+    }
     
     /* Medium devices (tablets, 768px and up) */
-    @media (min-width: 768px) { .MuiTabs-flexContainer {padding-bottom: 20px !important;}}
-    @media (min-width: 768px) { .navImage {width: 100%; height: 100%;}}
-    @media (min-width: 768px) { .navImage {width: 80px; height: 80px; position: absolute; bottom: 1px; left: 10px;}}
+    @media (min-width: 768px) { 
+        .MuiTabs-flexContainer {
+            padding-bottom: 20px !important;
+        }
+        .MuiTab-root {
+            min-height: 48px !important; 
+            font-size: 0.875rem !important;
+        }
+        // .navImage {
+        //     width: 80px; height: 80px; 
+        //     position: absolute; 
+        //     bottom: 1px; 
+        //     left: 10px;
+        // }
+    }
     
     /* // Large devices (desktops, 992px and up) */
-    @media (min-width: 992px) { .MuiTabs-flexContainer {padding-bottom: 20px !important;}}
-    @media (min-width: 992px) { .MuiTab-wrapper {padding-top: 20px;}}
-    @media (min-width: 992px) { .navImage {width: 100px; height: 100px; position: absolute; bottom: 1px; left: 10px;}}
+    @media (min-width: 992px) { 
+        .MuiTabs-flexContainer {
+            padding-bottom: 20px !important;
+        }
+        .MuiTab-wrapper {
+            padding-top: 20px;
+        }
+        // .navImage {
+        //     width: 100px; 
+        //     height: 100px; 
+        //     position: absolute; 
+        //     bottom: 1px; 
+        //     left: 10px;
+        // }
+    }
     
     /* // Extra large devices (large desktops, 1200px and up) */
-    @media (min-width: 1200px) { .MuiTabs-flexContainer {padding-bottom: 25px !important;}} 
-    @media (min-width: 1200px) { .MuiTab-wrapper {padding-top: 20px;}} 
-    @media (min-width: 1200px) { .navImage {width: 100px; height: 100px; position: absolute; bottom: 1px; left: 10px;}}             
+    @media (min-width: 1200px) { 
+        .MuiTabs-flexContainer {
+            padding-bottom: 25px !important;
+        }
+        .MuiTab-wrapper {
+            padding-top: 20px;
+        }
+        // .navImage {
+        //     width: 100px; 
+        //     height: 100px; 
+        //     position: absolute; 
+        //     bottom: 1px; 
+        //     left: 10px;
+        // }
+    }           
 }

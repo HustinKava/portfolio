@@ -22,19 +22,16 @@ function Homepage () {
 
         switch(dataId) {
             case "1":
-            console.log("div 1")
             setValue(0)
             break;
             case "2":
-            console.log("div 2")
             setValue(1)
             break;
             case "3":
-            console.log("div 3")
             setValue(2)
             break;
             default:
-            console.log("default 1")
+            setValue(0)       
         }
     } 
 
