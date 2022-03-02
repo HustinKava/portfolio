@@ -124,6 +124,19 @@
         .skillTitle  { border-top: solid 3px white; }
     } 
 
+    @media (min-width: 633px) {
+        .profile  {
+            width: 90%; 
+            height: 85%; 
+            margin-top: 70px; 
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .text {font-size: 14px;}
+        .bioText  { margin-top: -210px;}
+    }
+
     // /* Medium devices (tablets, 768px and up) */
     @media (min-width: 768px) {
         .profile  {
