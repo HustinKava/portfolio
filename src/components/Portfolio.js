@@ -4,7 +4,6 @@ import { TweenMax, Power4 } from 'gsap';
 import SwiperCore, { Mousewheel, Pagination, Autoplay } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import Data from '../data/Data.json';
-import './Portfolio.css';
 
 SwiperCore.use([Mousewheel, Pagination, Autoplay]);
 

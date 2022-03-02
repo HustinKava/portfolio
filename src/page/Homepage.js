@@ -1,30 +1,86 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Navbar from '../components/Navbar';
 import About from '../components/About';
 import Projects from '../components/Projects';
 // import Portfolio from '../components/Portfolio';
 import Contact from '../components/Contact';
-import Particles from 'react-particles-js';
+import Particles from "react-tsparticles";
 import particleConfig from '../components/configParticles';
-import './Homepage.css';
 
 function Homepage () {
 
+    const [value, setValue] = useState(0)
+
+    const handleTabs = (e, val) => {
+        setValue(val)
+        console.log(val)
+    };
+
+    const navHighlight = (e) => {
+
+        let dataId = e.currentTarget.dataset.id
+
+        switch(dataId) {
+            case "1":
+            setValue(0)
+            break;
+            case "2":
+            setValue(1)
+            break;
+            case "3":
+            setValue(2)
+            break;
+            default:
+            setValue(0)       
+        }
+    } 
+
     return (
-        <div>
-            <Navbar/>
+        <div>            
+            <Navbar
+                handleTabs={handleTabs}
+                value={value}
+            />
+
             <div className='App' style={{position:'relative'}}>
+            
             <div className='particlesDiv' style={{ position: 'fixed', zIndex: '-1' }}>
-            <Particles className='particles' params={particleConfig} />
+                <Particles className='particles' params={particleConfig} />
             </div>
+
             <div id='About' className='space'/>
-            <About/>
-            <div id='Projects' className='space'/>
-            <Projects/>
+            <div 
+                data-id="1" 
+                onMouseEnter={navHighlight}
+                onTouchMove={navHighlight} 
+                onTouchEnd={navHighlight}
+            >
+                <About/>
+            </div>
+
+            <div id='Projects'/>
+            <div 
+                data-id="2" 
+                onMouseEnter={navHighlight}
+                onTouchMove={navHighlight} 
+                onTouchEnd={navHighlight}
+            >
+                <Projects/>
+            </div>
+
             {/* <div id='Portfolio' className='space'/>
             <Portfolio/> */}
-            <div id='Contact' className='space'/>
-            <Contact/>
+
+            <div id='Contact'/>
+            <div 
+                data-id="3" 
+                onMouseEnter={navHighlight}
+                onTouchMove={navHighlight} 
+                onTouchEnd={navHighlight}
+            >
+                <Contact/>
+            </div>
+
             <div className='space'/>
             </div>
         </div>

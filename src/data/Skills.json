@@ -1,0 +1,51 @@
+[ 
+    {
+        "dataId": "1",
+        "srcWhite": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/React.png",
+        "srcColor": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/color-icons/React-color.png",
+        "text": "React",
+        "fontColor": "#2acdfa"
+    },
+    {
+        "dataId": "2",
+        "srcWhite": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/JS.png",
+        "srcColor": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/color-icons/JS-color.png",
+        "text": "JavaScript",
+        "fontColor": "#DA6631"
+    },
+    {
+        "dataId": "3",
+        "srcWhite": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/Sass.png",
+        "srcColor": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/color-icons/Sass-color.png",
+        "text": "Sass",
+        "fontColor": "#FF80C0"
+    },
+    {
+        "dataId": "4",
+        "srcWhite": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/Node.png",
+        "srcColor": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/color-icons/Node-color.png",
+        "text": "Node.js",
+        "fontColor": "#277934"
+    },
+    {
+        "dataId": "5",
+        "srcWhite": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/MySQL.png",
+        "srcColor": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/color-icons/MySQL-color.png",
+        "text": "MySQL",
+        "fontColor": "#FFAB41"
+    },
+    {
+        "dataId": "6",
+        "srcWhite": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/MongoDB.png",
+        "srcColor": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/color-icons/MongoDB-color.png",
+        "text": "MongoDB",
+        "fontColor": "#2ec84f"
+    },
+    {
+        "dataId": "7",
+        "srcWhite": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/Heroku.png",
+        "srcColor": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/color-icons/Heroku-color.png",
+        "text": "Heroku",
+        "fontColor": "#5D3990"
+    }
+]

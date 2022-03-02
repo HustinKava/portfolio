@@ -1,6 +1,5 @@
 [   
     {
-        "id": 1,
         "webHref": "https://guarded-dusk-24354.herokuapp.com/",
         "src": "https://i.ibb.co/6tX1THB/Mind-Share.png",
         "text": "MindShare",
@@ -19,7 +18,6 @@
         ]
     },
     {
-        "id": 2,
         "webHref": "https://secret-savannah-64299.herokuapp.com/",
         "src": "https://i.ibb.co/X5pRCNc/google.png",
         "text": "Google Book Search",
@@ -38,7 +36,6 @@
         ]
     },
     {
-        "id": 3,
         "webHref": "https://stormy-springs-60842.herokuapp.com/",
         "src": "https://i.ibb.co/mXsrzYx/Travel-Planner.png",
         "text": "Let's Go Travel Planner",
@@ -57,7 +54,6 @@
         ]
     },
     {
-        "id": 5,
         "webHref": "https://hustinkava.github.io/Code-Quiz/",
         "src": "https://i.ibb.co/K5kmFmJ/CodeQuiz.png",
         "text": "Code Quiz",
@@ -73,7 +69,6 @@
         ]
     },   
     {
-        "id": 6,
         "webHref": "https://hustinkava.github.io/Password-Generator/",
         "src": "https://i.ibb.co/khjRbKb/Password.png",
         "text": "Password Generator",
@@ -89,7 +84,6 @@
         ]
     },
     {
-        "id": 7,
         "webHref": "https://hustinkava.github.io/Weather-Dashboard/",
         "src": "https://i.ibb.co/DRwrVQ3/Weather.png",
         "text": "Weather Dashboard",
@@ -108,7 +102,6 @@
         ]
     },
     {
-        "id": 8,
         "webHref": "https://hustinkava.github.io/Work-Day-Schedule/",
         "src": "https://i.ibb.co/Z29xQ6D/WorkDay.png",
         "text": "Work Day Scheduler",
@@ -127,7 +120,6 @@
         ]
     },
     {
-        "id": 9,
         "webHref": "https://youtu.be/VeKhEJunMI0",
         "src": "https://i.ibb.co/df50hDz/ReadMe.png",
         "text": "Readme Generator",
@@ -141,7 +133,6 @@
         ]
     },
     {
-        "id": 10,
         "webHref": "https://youtu.be/mR7uePdATIk",
         "src": "https://i.ibb.co/0Qpp5bG/Emp-Summary.png",
         "text": "Employee Summary",
@@ -156,7 +147,6 @@
         ]
     },
     {
-        "id": 11,
         "webHref": "https://note-taker-uoft.herokuapp.com/notes",
         "src": "https://i.ibb.co/Nnt99V3/Note-Taker.png",
         "text": "Note Taker",
@@ -174,7 +164,6 @@
         ]
     },
     {
-        "id": 12,
         "webHref": "https://www.youtube.com/watch?v=g9tlIpv78nc&feature=youtu.be",
         "src": "https://i.ibb.co/8chwWY7/Emp-Tracker.png",
         "text": "Employee Tracker",
@@ -189,7 +178,6 @@
         ]
     },
     {
-        "id": 13,
         "webHref": "https://blooming-citadel-30147.herokuapp.com/",
         "src": "https://i.ibb.co/7Wq4P3v/Burger.png",
         "text": "Eat Da Burger",
@@ -208,7 +196,6 @@
         ]
     },
     {
-        "id": 14,
         "webHref": "https://infinite-forest-17979.herokuapp.com/",
         "src": "https://i.ibb.co/Dp3Cgyn/Workout.png",
         "text": "Workout Tracker",
@@ -226,7 +213,6 @@
         ]
     },
     {
-        "id": 15,
         "webHref": "https://protected-garden-52217.herokuapp.com/",
         "src": "https://i.ibb.co/q0m6C2Q/Budget.png",
         "text": "Budget Tracker",
@@ -244,7 +230,6 @@
         ]
     },
     {
-        "id": 16,
         "webHref": "https://rocky-temple-86306.herokuapp.com/",
         "src": "https://i.ibb.co/FKgnjHR/Directory.png",
         "text": "Employee Directory",

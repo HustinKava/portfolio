@@ -1,10 +1,45 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Container, Grid, } from '@material-ui/core';
-import './About.css';
 import ProfilePic from '../images/ProfilePic.png';
 import Resume from '../resume/Resume.pdf';
+import Skills from '../data/Skills.json';
 
 function About () {
+
+    useEffect(() => {
+        console.log(document.documentElement.offsetHeight)
+    }, []);
+
+    const iconSwitch = (e) => {  
+        e.stopPropagation();
+        e.preventDefault();
+        
+        for (let i = 0; i < Skills.length; i++) {
+            if (e.currentTarget.dataset.id === Skills[i].dataId) {
+                if (e.currentTarget.children[0].src === Skills[i].srcWhite) {                    
+                    e.currentTarget.children[0].src = Skills[i].srcColor;
+                } else if (e.currentTarget.children[0].src === Skills[i].srcColor) {
+                    e.currentTarget.children[0].src = Skills[i].srcWhite;
+                }
+            }
+        }        
+    }
+
+    const linkedin = (e) => {
+        e.currentTarget.children[0].children[0].src === "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/Linkedin.png" ? 
+        e.currentTarget.children[0].children[0].src = "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/color-icons/Linkedin-color.png" : 
+        e.currentTarget.children[0].children[0].src = "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/Linkedin.png"
+    }
+    const resume = (e) => {
+        e.currentTarget.children[0].children[0].src === "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/Acrobat.png" ? 
+        e.currentTarget.children[0].children[0].src = "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/color-icons/Acrobat-color.png" : 
+        e.currentTarget.children[0].children[0].src = "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/Acrobat.png"
+    }
+    const github = (e) => {
+        e.currentTarget.children[0].children[0].src === "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/Github.png" ? 
+        e.currentTarget.children[0].children[0].src = "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/color-icons/Github-color.png" : 
+        e.currentTarget.children[0].children[0].src = "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/Github.png"
+    }
 
     return (
         <Container className='container' maxWidth="md">
@@ -17,7 +52,11 @@ function About () {
                     <h3 className='FullStack'><img src="https://i.ibb.co/ZWZzj8S/iconfinder-Arrow-doodle-16-3847918.png" alt="arrow"/>Full-Stack Developer</h3>
                     </Grid>
                     <Grid item xs={12} sm={6} md={6} lg={6}>
-                    <img className='profile' src={ProfilePic} alt='Profile'/>
+                        
+                        <div className='profile-image-container'>
+                            <img className='profile' src={ProfilePic} alt='Profile'/>
+                        </div>
+
                     </Grid>
                 </Grid>
                 
@@ -44,21 +83,21 @@ function About () {
                 </Grid>
                 <Grid item xs={12} sm={6}>
                     <div className='social'>
-                    <div>
+                    <div data-id="1" onMouseEnter={linkedin} onMouseLeave={linkedin}>
                         <a href="http://www.linkedin.com/in/hustin-kava" target="_blank" rel="noopener noreferrer">
-                            <img src="https://i.ibb.co/YNwNV3L/iconfinder-circle-linkedin-317750.png" alt="linkedin" className='icon'/>
+                            <img src="https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/Linkedin.png" alt="linkedin" className='icon'/>
                         </a>
                         <p className='socialText'>Linkedin</p>
                     </div>
-                    <div>
+                    <div data-id="2" onMouseEnter={resume} onMouseLeave={resume}>
                         <a href={Resume} target="_blank" rel="noopener noreferrer">
-                        <img src="https://i.ibb.co/pWS2CLK/pdf-icon.png" alt="resume" className='icon'/>
+                        <img src="https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/Acrobat.png" alt="resume" className='icon'/>
                         </a>
                         <p className='socialText'>Resume</p>
                     </div>
-                    <div>
+                    <div data-id="3" onMouseEnter={github} onMouseLeave={github}>
                         <a href="https://github.com/HustinKava" target="_blank" rel="noopener noreferrer">
-                        <img src="https://i.ibb.co/JjqDx3j/iconfinder-github-287583.png" alt="github" className='icon'/>
+                        <img src="https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/Github.png" alt="github" className='icon'/>
                         </a>
                         <p className='socialText'>GitHub</p>
                     </div>
@@ -70,46 +109,27 @@ function About () {
             <div className='skillTitle'></div>
                 <h3 className='techSkills'>Technical Skills:</h3>
             <div className='skills'>
-                <div>
-                    <img src="https://i.ibb.co/HNMnVwV/1174949-24.png" alt="react" className='iconSkill'/>
-                    <p className='iconText'>React</p>
-                </div>
-                <div>
-                  <img src="https://i.ibb.co/NttJZWL/iconfinder-187-Js-logo-logos-4373213.png" alt="javascript" className='iconSkill'/>
-                    <p className='iconText'>JavaScript</p>
-                </div>
-                {/* <div>
-                    <img src="https://i.ibb.co/kBhZN3k/iconfinder-badge-html-5-317755.png" alt="html" className='icon'/>
-                    <p className='iconText'>HTML</p>
-                </div> */}
-                <div>
-                  <img src="https://i.ibb.co/yPhh2Sq/iconfinder-badge-css-3-317756.png" alt="react" className='iconSkill'/>
-                    <p className='iconText'>CSS</p>
-                </div>
-                <div>
-                    <img src="https://i.ibb.co/QvJ4Q6Y/iconfinder-icon.png" alt="nodejs" className='iconSkill'/>
-                    <p className='iconText'>Node.js</p>
-                </div>
-                <div>
-                    <img src="https://i.ibb.co/VxWy2m7/mysql.png" alt="mysql" className='iconSkill'/>
-                    <p className='iconText'>MySQL</p>
-                </div>
-                <div>
-                    <img src="https://i.ibb.co/mvmmCsf/uxwing-svg-icon-editor.png" alt="mongodb" className='iconSkill'/>
-                    <p className='iconText'>MongoDB</p>
-                </div>
-                {/* <div>
-                    <img src="https://i.ibb.co/gVZGhj9/6929231-24.png" alt="vscode" className='iconSkill'/>
-                    <p className='iconText'>VSCode</p>
-                </div> */}
-                <div>
-                    <img src="https://i.ibb.co/SdzTbPf/icons8-heroku-24.png" alt="heroku" className='iconSkill'/>
-                    <p className='iconText'>Heroku</p>
-                </div>
-                <div>
-                    <img src="https://i.ibb.co/dfLR8Zf/icons8-travis-ci-24.png" alt="travis" className='iconSkill'/>
-                    <p className='iconText'>Travis CI</p>
-                </div>
+
+                {Skills.map((data, index) => {
+                    return (
+                        <div
+                            key={index}
+                            onMouseEnter={iconSwitch}
+                            onMouseLeave={iconSwitch}
+                            data-id={index + 1}
+                        >
+                            <img                                 
+                                src={data.srcWhite} 
+                                alt={data.text} 
+                                className='iconSkill'
+                            />
+                            <p 
+                                className='iconText'>
+                                    {data.text}
+                            </p>
+                        </div>                        
+                    )
+                })}
             </div>
         </Container>
     )

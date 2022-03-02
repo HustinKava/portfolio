@@ -1,0 +1,25 @@
+@mixin styles {
+    .formSize {
+        width: 50%
+    }
+    
+    /* MEDIA QUERIES */
+    /* Extra small devices (Tested with Iphone X) */
+    @media (min-width: 360px) { .formSize  {padding-bottom: 5px !important; width: 100%;}}
+    @media (min-width: 360px) { .contactTitle  {text-align: center;}}
+    /* Small devices (landscape phones, 576px and up) */
+    @media (min-width: 576px) { .formSize  {padding-bottom: 5px !important; width: 85%;}}
+    @media (min-width: 576px) { .contactTitle  {text-align: left;}}
+    
+    /* Medium devices (tablets, 768px and up) */
+    @media (min-width: 768px) { .formSize  {padding-bottom: 5px !important; width: 75%;}}
+    @media (min-width: 768px) { .contactTitle  {text-align: left;}}
+    
+    /* // Large devices (desktops, 992px and up) */
+    @media (min-width: 992px) { .formSize  {padding-bottom: 5px !important; width: 60%;}}
+    @media (min-width: 992px) { .contactTitle  {text-align: left;}}
+    
+    /* // Extra large devices (large desktops, 1200px and up) */
+    @media (min-width: 1200px) { .formSize  {padding-bottom: 5px !important; width: 50%;}} 
+    @media (min-width: 1200px) { .contactTitle  {text-align: left;}}                
+}

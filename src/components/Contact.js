@@ -2,7 +2,6 @@ import React from "react";
 import emailjs from 'emailjs-com';
 import { FormControl, Button, TextField, Container } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
-import './Contact.css';
 
 const useStyles = makeStyles({
     root: {

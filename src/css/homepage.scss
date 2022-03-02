@@ -1,0 +1,15 @@
+@mixin styles {  
+    .space {
+        padding-bottom: 100px;
+    }
+    
+    .container {
+        border-radius: 25px;
+        /* background-color: #65bdcc; */
+        background-color: #71afed;
+        border: solid 5px white;
+        /* ORIGINAL e4fbff */
+        /* 65bdcc */
+        margin-bottom: 100px;
+    }
+}
