@@ -1,23 +1,23 @@
 import React from 'react';
 import { Container, Grid, Button } from '@material-ui/core';
-import Data from '../data/Data.json';
+// import Data from '../data/Data.json';
 import ProjectData from '../data/Projects.json';
 // import Ipad from '../images/ipad.png';
 // import Flashcards from '../images/Flashcards.PNG';
 
 function Projects () {
 
-    const GifToggle = (e) => {        
-        for (let i =0; i < ProjectData.length; i++) {
-            if (e.target.dataset.id === ProjectData[i].dataId) {
-                if (e.target.src === ProjectData[i].src) {
-                    e.target.src = Data[0].src
-                } else {
-                    e.target.src = ProjectData[i].src
-                }       
-            }
-        }
-    }
+    // const GifToggle = (e) => {        
+    //     for (let i =0; i < ProjectData.length; i++) {
+    //         if (e.target.dataset.id === ProjectData[i].dataId) {
+    //             if (e.target.src === ProjectData[i].src) {
+    //                 e.target.src = Data[0].src
+    //             } else {
+    //                 e.target.src = ProjectData[i].src
+    //             }       
+    //         }
+    //     }
+    // }
 
     const iconSwitch = (e) => {        
         
