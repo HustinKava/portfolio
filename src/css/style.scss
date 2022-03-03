@@ -1,6 +1,6 @@
 @use "homepage";
 @use "projects";
-@use "portfolio";
+// @use "portfolio";
 @use "navbar";
 @use "contact";
 @use "about";
@@ -74,7 +74,7 @@ html {
 
 @include homepage.styles;
 @include projects.styles;
-@include portfolio.styles;
+// @include portfolio.styles;
 @include navbar.styles;
 @include contact.styles;
 @include about.styles;

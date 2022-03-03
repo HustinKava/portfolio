@@ -14,7 +14,7 @@ This website was created to showcase what I have learned so far. This page will 
 - [License](#License)
 
 ## Technologies Used
-For this application I used the following technologies: React, JavaScript, HTML/CSS, Material Ui, Swiper, Gsap, Particles.js, EmailJS and GitHub Pages.
+For this application I used the following technologies: React, JavaScript, Sass, Material Ui, tsparticles, EmailJS and AWS S3 static website hosting.
 
 ## Screenshot
 ![](public/images/Screenshot1.PNG)
@@ -22,7 +22,7 @@ For this application I used the following technologies: React, JavaScript, HTML/
 
 ## View Live Website  
 
-Please click **[Here](https://hustinkava.github.io/portfolio/)** to view the live webpage hosted on GitHub pages
+Please click **[Here](http://hustin-portfolio.s3-website.ca-central-1.amazonaws.com/)** to view the live webpage hosted on AWS S3
 
 
 ## Questions
