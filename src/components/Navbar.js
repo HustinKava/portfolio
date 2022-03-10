@@ -21,7 +21,7 @@ function Navbar ({ handleTabs, value}) {
                 centered
                 TabIndicatorProps={{ style: { background: "rgb(113, 175, 237)" } }}
             >
-              <Tab label="Test" href='#About'/>
+              <Tab label="About" href='#About'/>
               <Tab label="Projects" href='#Projects' />
               {/* <Tab label="Portfolio" href='#Portfolio' /> */}
               <Tab label="Contact" href='#Contact'/>
