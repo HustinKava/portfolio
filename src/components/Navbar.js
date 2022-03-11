@@ -13,6 +13,7 @@ function Navbar ({ handleTabs, value}) {
             alt="HK Logo"
             className='navImage'
           /> */}
+          {/* test comment */}
             <Tabs
                 onChange={handleTabs}
                 value={value}
