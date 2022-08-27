@@ -1,6 +1,54 @@
 [ 
     {
         "dataId": "1",
+        "webHref": "",
+        "src": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Checkin.png",
+        "staticSrc": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Checkin.png",
+        "text": "Check-in/Check-out",
+        "description": "With the check-in/check-out app, Web Production Artists are able to efficiently keep track of which assets are in use and which assets are available. With real time notifications for when a WPA enters and exits a course and error validation, we are able to avoid merge conflicts when working on assets.",
+        "repoLink": "https://github.com/HustinKava/checkin-checkout",
+        "bOne": "Repo",
+        "bTwo": "",
+        "icons": [
+            {
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/React.png", 
+                "title": "React",
+                "colorImage": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/color-icons/React-color.png"
+            },
+            {
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/JS.png", 
+                "title": "JavaScript",
+                "colorImage": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/color-icons/JS-color.png"
+            },
+            {
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/Sass.png",
+                "title": "Sass",
+                "colorImage": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/color-icons/Sass-color.png"
+            },
+            {
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/SocketIo.png",
+                "title": "Socket Io",
+                "colorImage": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/color-icons/SocketIo-color.png"
+            },                               
+            {
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/MongoDB.png",
+                "title": "MongoDB",
+                "colorImage": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/color-icons/MongoDB-color.png"
+            },
+            {
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/Heroku.png",
+                "title": "Heroku",
+                "colorImage": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/color-icons/Heroku-color.png"
+            },
+            {
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/Node.png",
+                "title": "Node JS",
+                "colorImage": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/color-icons/Node-color.png"
+            }                              
+        ]
+    },
+    {
+        "dataId": "2",
         "webHref": "https://content-solutions.s3.ca-central-1.amazonaws.com/courseware/showcase/k8-interactives/lessons/flashcards.html",
         "src": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Flashcards.PNG",
         "staticSrc": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Static-Proj-img/Flashcards.png",
@@ -28,7 +76,7 @@
         ]
     },
     {
-        "dataId": "2",
+        "dataId": "3",
         "webHref": "https://content-solutions.s3.ca-central-1.amazonaws.com/courseware/showcase/k8-interactives/lessons/flowchart.html",
         "src": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Flowchart.PNG",
         "staticSrc": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Static-Proj-img/Flowcharts.png",
@@ -56,7 +104,7 @@
         ]
     },
     {
-        "dataId": "3",
+        "dataId": "4",
         "webHref": "https://galaxyprotocol.io/",
         "src": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Galaxy.PNG",
         "staticSrc": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Static-Proj-img/Galaxy.png",
@@ -89,7 +137,7 @@
         ]
     },  
     {
-        "dataId": "4",
+        "dataId": "5",
         "webHref": "https://guarded-dusk-24354.herokuapp.com/",
         "src": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/mindshare.PNG",
         "staticSrc": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Static-Proj-img/Mindshare.png",
@@ -137,7 +185,7 @@
         ]
     },
     {
-        "dataId": "5",
+        "dataId": "6",
         "webHref": "https://secret-savannah-64299.herokuapp.com/",
         "src": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/GoogleBookSearch.PNG",
         "staticSrc": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Static-Proj-img/GoogleBookSearch.png",
@@ -181,11 +229,16 @@
                 "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/Bootstrap.png",
                 "title": "Bootstrap",
                 "colorImage": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/color-icons/Bootstrap-color.png"
-            }                                                                        
+            },
+            {
+                "image": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/white-icons/SocketIo.png",
+                "title": "Socket Io",
+                "colorImage": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Icons/color-icons/SocketIo-color.png"
+            }                                                                       
         ]
     },
     {
-        "dataId": "6",
+        "dataId": "7",
         "webHref": "https://stormy-springs-60842.herokuapp.com/",
         "src": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/TravelItinerary.PNG",
         "staticSrc": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Static-Proj-img/Travel-Planner.PNG",
@@ -228,7 +281,7 @@
         ]
     },  
     {
-        "dataId": "7",
+        "dataId": "8",
         "webHref": "https://youtu.be/VeKhEJunMI0",
         "src": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Readme.PNG",
         "staticSrc": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Static-Proj-img/ReadMe.png",
@@ -251,7 +304,7 @@
         ]
     },
     {
-        "dataId": "8",
+        "dataId": "9",
         "webHref": "https://www.youtube.com/watch?v=g9tlIpv78nc&feature=youtu.be",
         "src": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/EmployeeTracker.PNG",
         "staticSrc": "https://s3-hustin-test-bucket.s3.ca-central-1.amazonaws.com/Static-Proj-img/Emp-Tracker.png",
